@@ -1,0 +1,37 @@
+[{
+    "kilde": "kilder/kilde_1_napoleon.txt",
+    "opts": [{
+        "spm": "Hvem meddeler sig?",
+        "korrekt_svar": "Napoleon",
+        "svarmuligheder": ["Christian d. 4", "Hans Christian Andersen","Napoleon", "Dronningen"],
+        "feedback": ""
+
+    }, {
+        "spm": "Hvad siger Napoleon?",
+        "korrekt_svar": "korrekt_svar",
+        "svarmuligheder": ["forkerte_svar[0]", "korrekt_svar", "forkerte_svar[1]", "forkerte_svar[2]"],
+        "feedback": ""
+
+    }, {
+        "spm": "I hvilken situation meddeler Napoleon sig?",
+        "korrekt_svar": "korrekt_svar",
+        "svarmuligheder": ["forkerte_svar[0]", "korrekt_svar", "forkerte_svar[1]", "forkerte_svar[2]"],
+        "feedback": ""
+
+    }]
+}, {
+    "kilde": "https://www.youtube.com/watch?v=JSBzZMH3aqI",
+    "opts": [{
+        "spm": "Hvem meddeler sig?",
+        "korrekt_svar": "Napoleon",
+        "svarmuligheder": ["Christian d. 4", "Napoleon", "Hans Christian Andersen", "Dronningen"],
+        "feedback": ""
+
+    }, {
+        "spm": "Hvad siger Napoleon?",
+        "korrekt_svar": "korrekt_svar",
+        "svarmuligheder": ["forkerte_svar[0]", "forkerte_svar[1]", "forkerte_svar[2]"],
+        "feedback": ""
+
+    }]
+}]
