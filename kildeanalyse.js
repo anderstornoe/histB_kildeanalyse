@@ -1,26 +1,50 @@
 var JsonObj,
     runde = 0,
     delrunde = 0,
-    score = 0;
+    korrekt = false;
+score = 0;
 
 
 $(document).ready(function() {
-   $(".checkAnswer").click(check_answer);
-   });
+    $(".checkAnswer").click(check_answer);
+    $(".dropdown").change(function() {
+        var dropdown_value = $(".dropdown").val();
+        if (dropdown_value === JsonObj[runde].opts[delrunde].korrekt_svar) {
+            korrekt_svar = true;
+        } else {
+            korrekt_svar = false;
+
+        }
+
+    });
+});
 
 
 function next_round() {
+$(".analysetext").html("");
+    delrunde = 0;
+    $(".kilde_container").fadeOut(0);
+    $(".kilde_container").html("");
+    $(".kilde_container").fadeIn(1500);
 
-// Load kilden ind fra Json objekt: 
+    // Load kilden ind fra Json objekt: 
 
-$(".kilde_container").append(JsonObj[runde].kilde)
+    $.get(JsonObj[runde].kilde, function(data) {
+        var myvar = data;
+
+        $(".kilde_container").append(myvar)
+
+    });
+
 
 
     next_del_round();
 }
 
 function next_del_round() {
-    $(".QuestionTask").html(JsonObj[0].opts[0].spm);
+    $(".QuestionTask").html("");
+    $(".dropdown").html("");
+    $(".QuestionTask").html(JsonObj[runde].opts[delrunde].spm);
 
     for (var i = 0; i < JsonObj[runde].opts[delrunde].svarmuligheder.length; i++) {
         $(".dropdown").append("<option value='" + JsonObj[runde].opts[delrunde].svarmuligheder[i] + "'>" + JsonObj[runde].opts[delrunde].svarmuligheder[i] + "</option>");
@@ -28,8 +52,26 @@ function next_del_round() {
 
 }
 
-function check_answer(){
-    console.log ("check_answer");
+function check_answer() {
+    if (korrekt_svar === true) {
+        if (delrunde < JsonObj[runde].opts.length) {
+            console.log("næste delrunde_spm");
+
+            $(".analysetext").append("<span class='txt_tween'>" + JsonObj[runde].opts[delrunde].feedback + "</span>");
+            $(".txt_tween").eq(delrunde).fadeOut(0);
+            $(".txt_tween").eq(delrunde).fadeIn(600);
+            delrunde++;
+            next_del_round();
+        } else {
+            $(".spm_container").append("<div class='btn btn-default continue'>Næste kilde</div>")
+            runde++;
+            $(".continue").click(next_round);
+        }
+        console.log("move on");
+        //update_text();
+    } else {
+
+    }
 }
 
 
