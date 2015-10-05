@@ -1,50 +1,63 @@
 [{
-    "kilde": "kilder/kilde_1_napoleon.txt",
+    "kilde": "kilder/pio.txt",
+    "kilde_type": "text",
     "opts": [{
         "spm": "Hvem meddeler sig?",
-        "korrekt_svar": "Napoleon",
-        "svarmuligheder": ["Christian d. 4", "Hans Christian Andersen","Napoleon", "Dronningen"],
-        "feedback": "I denne kilde henvender Napoleon sig "
+        "korrekt_svar": 3,
+        "svarmuligheder": ["'Arbejderen'","Redaktør C. Ploug", "Louis Pio","'Socialisten'", "Arbejderne"],
+        "feedback": "I denne kilde henvender Louis Pio sig "
 
     }, {
-        "spm": "Hvem taler Napoleon til?",
-        "korrekt_svar": "sin kone",
-        "svarmuligheder": ["kongen", "sin kone", "Lord Nelson", "sig selv"],
-        "feedback": "til sin kone "
+        "spm": "Hvem henvender Louis Pio sig til?",
+        "korrekt_svar": 4,
+        "svarmuligheder": ["Arbejderne", "Magthaverne", "Politiet", "Arbejderne og magthaverne"],
+        "feedback": "direkte til arbejderne, men også til samfundets top."
 
     },{
-        "spm": "Hvornår meddeler Napoleon sig?",
-        "korrekt_svar": "13. november 1796",
-        "svarmuligheder": ["13. oktober 1796", "13. november 1896", "13. november 1796", "12. januar 1796"],
-        "feedback": "en dag i november 1796."
+        "spm": "Hvornår meddeler Louis Pio sig?",
+        "korrekt_svar": 1,
+        "svarmuligheder": ["2. maj 1872", "5. maj 1872", "1. maj 1872"],
+        "feedback": "<br/>Louis Pio meddeler sig i dagbladet Socialisten den 2. maj 1872."
+
+    },{ "spm": "Hvilke 3 punkter omhandler artiklen især?",
+        "korrekt_svar": 3,
+        "svarmuligheder": ["Fædreland, fællesskab og kamp","Penge, bedre løn og friskoler", "Undertrykkelse, barmhjertighed og kamp", "Undertrykkelse, fællesskab og kamp"],
+        "feedback": "<br/>Artiklen omhandler særligt arbejdernes undertrykkelse, deres fællesskab og eventuelle kamp imod borgerskabet."
 
     },{
-        "spm": "Hvad siger Napoleon?",
-        "korrekt_svar": "at han elsker sin kone",
-        "svarmuligheder": ["at han elsker sin kone", "at han vil skilles", "at han har vundet i lotto", "intet"],
-        "feedback": "<br/>Han føler et dybt savn "
+        "spm": "Hvad er Louis Pios hovedbudskab?",
+        "korrekt_svar": 2,
+        "svarmuligheder": ["At arbejderne skal gå i krig imod magthaverne", "At det nu er nok med undertrykkelse af arbejderklassen", "At magthaverne er idioter"],
+        "feedback": "<br/>Pios hovedbudskab er, at arbejderklassen ikke skal finde sig i mere undertrykkelse."
 
     },{
-        "spm": "Hvordan meddeler Napoleon sig?",
-        "korrekt_svar": "på en ironisk måde",
-        "svarmuligheder": ["på en ironisk måde", "oprigtigt", "sparsomt"],
-        "feedback": ", som han udtrykker på en ironisk måde, "
+        "spm": "Hvordan meddeler Louis Pio sig i artiklen?",
+        "korrekt_svar": 2,
+        "svarmuligheder": ["På en ironisk måde", "Med mange negativt- og positivt ladede ord.", "På en munter måde", "Med religiøse undertoner"],
+        "feedback": "<br/>Ved at sætte klare sproglige modsætninger op mellem de gode (arbejderne) og de onde (magthaverne) søger Pio en større gennemslagskraft."
 
     },{
-        "spm": "I hvilken situation meddeler Napoleon sig?",
-        "korrekt_svar": "i frustration",
-        "svarmuligheder": ["han er lykkelig", "han er taget til fange", "i frustration", "i hengivenhed"],
-        "feedback": "da han er frustreret over ikke at høre fra sin elskede."
+        "spm": "Med hvilket formål meddeler Louis Pio sig?",
+        "korrekt_svar": 1,
+        "svarmuligheder": ["At samle arbejderne til kamp og true magthaverne.", "At lave revolution", "At indkalde til strejke.", "Til at besætte tomme lejligheder i København"],
+        "feedback": "Hans formål er dels at samle arbejderne til kamp og ytre en trussel imod magthaverne."
 
     },{
-        "spm": "Med hvilke konsekvenser meddeler Napoleon sig?",
-        "korrekt_svar": "Det har ingen direkte konsekvenser",
-        "svarmuligheder": ["Det har konsekvenser i Frankrig", "Det har konsekvenser for forholdet til Tyskland", "Det har konsekvenser for forholdet til Italien", "Det har ingen direkte konsekvenser"],
-        "feedback": "Umiddelbart har det ingen konsekvenser, andet end i Napoleons samliv med konen."
+        "spm": "I hvilken situation meddeler Pio sig?",
+        "korrekt_svar": 2,
+        "svarmuligheder": ["Som følge af grundlovens indførelse i 1872", "På baggrund af konflikter mellem arbejdere og arbejdsgivere i 1872", "På baggrund af en sultestrejke."],
+        "feedback": "Pio har fået nok af udbyttelsen af arbejderne."
+
+    },{
+        "spm": "Hvad kan kilden bruges til?",
+        "korrekt_svar": 2,
+        "svarmuligheder": ["At sige noget om magthavernes syn på arbejderbevægelsen", "At sige noget om den tidlige danske arbejderbevægelse.", "Arbejdernes levevilkår og arbejderbevægelsens opståen."   ],
+        "feedback": "Kilden fortæller os om arbejderbevægelsens opståen, grundlæggende tanker og kamp for bedre vilkår."
 
     }]
 }, {
-    "kilde": "kilder/kilde_2_politi.txt",
+    "kilde": "http://www.kommunikationsforum.dk/log/multimedia/billeder%20til%20artikler/reklamekanon/ennytid2.jpg",
+    "kilde_type": "pic",
     "opts": [{
         "spm": "Hvem meddeler sig?",
         "korrekt_svar": "Journalisten",

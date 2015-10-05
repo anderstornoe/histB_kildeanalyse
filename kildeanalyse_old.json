@@ -1,0 +1,67 @@
+[{
+    "kilde": "kilder/kilde_1_napoleon.txt",
+    "opts": [{
+        "spm": "Hvem meddeler sig?",
+        "korrekt_svar": "Napoleon",
+        "svarmuligheder": ["Christian d. 4", "Hans Christian Andersen","Napoleon", "Dronningen"],
+        "feedback": "I denne kilde henvender Napoleon sig "
+
+    }, {
+        "spm": "Hvem taler Napoleon til?",
+        "korrekt_svar": "sin kone",
+        "svarmuligheder": ["kongen", "sin kone", "Lord Nelson", "sig selv"],
+        "feedback": "til sin kone "
+
+    },{
+        "spm": "Hvornår meddeler Napoleon sig?",
+        "korrekt_svar": "13. november 1796",
+        "svarmuligheder": ["13. oktober 1796", "13. november 1896", "13. november 1796", "12. januar 1796"],
+        "feedback": "en dag i november 1796."
+
+    },{
+        "spm": "Hvad siger Napoleon?",
+        "korrekt_svar": "at han elsker sin kone",
+        "svarmuligheder": ["at han elsker sin kone", "at han vil skilles", "at han har vundet i lotto", "intet"],
+        "feedback": "<br/>Han føler et dybt savn "
+
+    },{
+        "spm": "Hvordan meddeler Napoleon sig?",
+        "korrekt_svar": "på en ironisk måde",
+        "svarmuligheder": ["på en ironisk måde", "oprigtigt", "sparsomt"],
+        "feedback": ", som han udtrykker på en ironisk måde, "
+
+    },{
+        "spm": "Med hvilket formål meddeler Napoleon sig?",
+        "korrekt_svar": "på en ironisk måde",
+        "svarmuligheder": ["på en ironisk måde", "oprigtigt", "sparsomt"],
+        "feedback": ", som han udtrykker på en ironisk måde, "
+
+    },{
+        "spm": "I hvilken situation meddeler Napoleon sig?",
+        "korrekt_svar": "i frustration",
+        "svarmuligheder": ["han er lykkelig", "han er taget til fange", "i frustration", "i hengivenhed"],
+        "feedback": "da han er frustreret over ikke at høre fra sin elskede."
+
+    },{
+        "spm": "Med hvilke konsekvenser meddeler Napoleon sig?",
+        "korrekt_svar": "Det har ingen direkte konsekvenser",
+        "svarmuligheder": ["Det har konsekvenser i Frankrig", "Det har konsekvenser for forholdet til Tyskland", "Det har konsekvenser for forholdet til Italien", "Det har ingen direkte konsekvenser"],
+        "feedback": "Umiddelbart har det ingen konsekvenser, andet end i Napoleons samliv med konen."
+
+    }]
+}, {
+    "kilde": "kilder/kilde_2_politi.txt",
+    "opts": [{
+        "spm": "Hvem meddeler sig?",
+        "korrekt_svar": "Journalisten",
+        "svarmuligheder": ["Politiet", "Estrup", "Journalisten", "Dronningen"],
+        "feedback": ""
+
+    }, {
+        "spm": "Hvad siger Napoleon?",
+        "korrekt_svar": "korrekt_svar",
+        "svarmuligheder": ["forkerte_svar[0]", "forkerte_svar[1]", "forkerte_svar[2]"],
+        "feedback": ""
+
+    }]
+}]

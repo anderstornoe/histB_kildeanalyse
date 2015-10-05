@@ -3,13 +3,21 @@ var JsonObj,
     delrunde = 0,
     korrekt = false;
 score = 0;
+var hejsa = "";
+
+
+///VIRK SÅ MOTHERFUCKER!
 
 
 $(document).ready(function() {
+
     $(".checkAnswer").click(check_answer);
+
+
     $(".dropdown").change(function() {
-        var dropdown_value = $(".dropdown").val();
-        if (dropdown_value === JsonObj[runde].opts[delrunde].korrekt_svar) {
+        var korrekt_indeks = $(".dropdown option:selected").index(); 
+       
+        if (korrekt_indeks === JsonObj[runde].opts[delrunde].korrekt_svar) {
             korrekt_svar = true;
         } else {
             korrekt_svar = false;
@@ -21,30 +29,36 @@ $(document).ready(function() {
 
 
 function next_round() {
-$(".analysetext").html("");
+    $(".analysetext").html("");
     delrunde = 0;
-    $(".kilde_container").fadeOut(0);
-    $(".kilde_container").html("");
-    $(".kilde_container").fadeIn(1500);
+    $(".kilde_container").fadeOut(0).html("").fadeIn(1500);
+
 
     // Load kilden ind fra Json objekt: 
+    var kilde_type = JsonObj[runde].kilde_type;
 
-    $.get(JsonObj[runde].kilde, function(data) {
-        var myvar = data;
+    if (kilde_type == "text") {
+        $.get(JsonObj[runde].kilde, function(data) {
+            var txt_fil = data;
+            $(".kilde_container").append(txt_fil)
+        });
 
-        $(".kilde_container").append(myvar)
-
-    });
-
-
-
+    } else if (kilde_type == "film") {
+        $(".kilde_container").append("<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/" + JsonObj[runde].kilde + "'frameborder='0' allowfullscreen='1'></iframe>");
+    } else if (kilde_type == "pic") {
+        $(".kilde_container").append("<img class='pic' src='" + JsonObj[runde].kilde + "'>");
+    }
     next_del_round();
 }
 
 function next_del_round() {
+
+    korrekt_svar = false;
     $(".QuestionTask").html("");
     $(".dropdown").html("");
     $(".QuestionTask").html(JsonObj[runde].opts[delrunde].spm);
+    $(".QuestionTask").fadeOut(0).fadeIn(2000);
+    $(".dropdown").append("<option value='Vælg dit svar' selected>Vælg dit svar</option>");
 
     for (var i = 0; i < JsonObj[runde].opts[delrunde].svarmuligheder.length; i++) {
         $(".dropdown").append("<option value='" + JsonObj[runde].opts[delrunde].svarmuligheder[i] + "'>" + JsonObj[runde].opts[delrunde].svarmuligheder[i] + "</option>");
@@ -53,15 +67,19 @@ function next_del_round() {
 }
 
 function check_answer() {
+    var dropdown_value = $(".dropdown").val();
+
     if (korrekt_svar === true) {
         if (delrunde < JsonObj[runde].opts.length) {
             console.log("næste delrunde_spm");
 
             $(".analysetext").append("<span class='txt_tween'>" + JsonObj[runde].opts[delrunde].feedback + "</span>");
             $(".txt_tween").eq(delrunde).fadeOut(0);
-            $(".txt_tween").eq(delrunde).fadeIn(600);
-            delrunde++;
-            next_del_round();
+            $(".txt_tween").eq(delrunde).fadeIn('slow', function() {
+                delrunde++;
+                next_del_round();
+            });
+
         } else {
             $(".spm_container").append("<div class='btn btn-default continue'>Næste kilde</div>")
             runde++;
@@ -70,6 +88,7 @@ function check_answer() {
         console.log("move on");
         //update_text();
     } else {
+        UserMsgBox(".container-fluid", dropdown_value + " er ikke det korrekte svar.");
 
     }
 }
