@@ -1,0 +1,32 @@
+}, {
+    "kilde": "http://www.kommunikationsforum.dk/log/multimedia/billeder%20til%20artikler/reklamekanon/ennytid2.jpg",
+    "kilde_type": "pic",
+    "opts": [{
+        "spm": "Hvem meddeler sig?",
+        "korrekt_svar": "Journalisten",
+        "svarmuligheder": ["Politiet", "Estrup", "Journalisten", "Dronningen"],
+        "feedback": ""
+
+    }, {
+        "spm": "Hvad siger Napoleon?",
+        "korrekt_svar": "korrekt_svar",
+        "svarmuligheder": ["forkerte_svar[0]", "forkerte_svar[1]", "forkerte_svar[2]"],
+        "feedback": ""
+
+    }]
+}, {
+    "kilde": "BIkvy7fVOgc",
+    "kilde_type": "video",
+    "opts": [{
+        "spm": "Hvem meddeler sig?",
+        "korrekt_svar": "Journalisten",
+        "svarmuligheder": ["Politiet", "Estrup", "Journalisten", "Dronningen"],
+        "feedback": ""
+
+    }, {
+        "spm": "Hvad siger Napoleon?",
+        "korrekt_svar": "korrekt_svar",
+        "svarmuligheder": ["forkerte_svar[0]", "forkerte_svar[1]", "forkerte_svar[2]"],
+        "feedback": ""
+
+    }]

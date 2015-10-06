@@ -4,7 +4,7 @@
     "opts": [{
         "spm": "Hvem meddeler sig?",
         "korrekt_svar": 3,
-        "svarmuligheder": ["'Arbejderen'","Redaktør C. Ploug", "Louis Pio","'Socialisten'", "Arbejderne"],
+        "svarmuligheder": ["'Arbejderen'", "Redaktør C. Ploug", "Louis Pio", "'Socialisten'", "Arbejderne"],
         "feedback": "I denne kilde henvender Louis Pio sig "
 
     }, {
@@ -13,62 +13,48 @@
         "svarmuligheder": ["Arbejderne", "Magthaverne", "Politiet", "Arbejderne og magthaverne"],
         "feedback": "direkte til arbejderne, men også til samfundets top."
 
-    },{
+    }, {
         "spm": "Hvornår meddeler Louis Pio sig?",
         "korrekt_svar": 1,
         "svarmuligheder": ["2. maj 1872", "5. maj 1872", "1. maj 1872"],
         "feedback": "<br/>Louis Pio meddeler sig i dagbladet Socialisten den 2. maj 1872."
 
-    },{ "spm": "Hvilke 3 punkter omhandler artiklen især?",
-        "korrekt_svar": 3,
-        "svarmuligheder": ["Fædreland, fællesskab og kamp","Penge, bedre løn og friskoler", "Undertrykkelse, barmhjertighed og kamp", "Undertrykkelse, fællesskab og kamp"],
+    }, {
+        "spm": "Hvilke 3 punkter omhandler artiklen især?",
+        "korrekt_svar": 4,
+        "svarmuligheder": ["Fædreland, fællesskab og kamp", "Penge, bedre løn og friskoler", "Undertrykkelse, barmhjertighed og kamp", "Undertrykkelse, fællesskab og kamp"],
         "feedback": "<br/>Artiklen omhandler særligt arbejdernes undertrykkelse, deres fællesskab og eventuelle kamp imod borgerskabet."
 
-    },{
+    }, {
         "spm": "Hvad er Louis Pios hovedbudskab?",
         "korrekt_svar": 2,
         "svarmuligheder": ["At arbejderne skal gå i krig imod magthaverne", "At det nu er nok med undertrykkelse af arbejderklassen", "At magthaverne er idioter"],
         "feedback": "<br/>Pios hovedbudskab er, at arbejderklassen ikke skal finde sig i mere undertrykkelse."
 
-    },{
+    }, {
         "spm": "Hvordan meddeler Louis Pio sig i artiklen?",
         "korrekt_svar": 2,
         "svarmuligheder": ["På en ironisk måde", "Med mange negativt- og positivt ladede ord.", "På en munter måde", "Med religiøse undertoner"],
-        "feedback": "<br/>Ved at sætte klare sproglige modsætninger op mellem de gode (arbejderne) og de onde (magthaverne) søger Pio en større gennemslagskraft."
+        "feedback": "<br/>Ved at sætte klare sproglige modsætninger op mellem de gode (arbejderne) og de onde (magthaverne) søger Pio en større gennemslagskraft. <br/>"
 
-    },{
+    }, {
         "spm": "Med hvilket formål meddeler Louis Pio sig?",
         "korrekt_svar": 1,
         "svarmuligheder": ["At samle arbejderne til kamp og true magthaverne.", "At lave revolution", "At indkalde til strejke.", "Til at besætte tomme lejligheder i København"],
-        "feedback": "Hans formål er dels at samle arbejderne til kamp og ytre en trussel imod magthaverne."
+        "feedback": "Louis Pios formål er dels at samle arbejderne til kamp og ytre en trussel imod magthaverne. <br/>"
 
-    },{
+    }, {
         "spm": "I hvilken situation meddeler Pio sig?",
         "korrekt_svar": 2,
         "svarmuligheder": ["Som følge af grundlovens indførelse i 1872", "På baggrund af konflikter mellem arbejdere og arbejdsgivere i 1872", "På baggrund af en sultestrejke."],
-        "feedback": "Pio har fået nok af udbyttelsen af arbejderne."
+        "feedback": "Pios artikel udspringer af store konflikter mellem arbejdsmarkedets parter i 1870'erne.<br/>"
 
-    },{
+    }, {
         "spm": "Hvad kan kilden bruges til?",
         "korrekt_svar": 2,
-        "svarmuligheder": ["At sige noget om magthavernes syn på arbejderbevægelsen", "At sige noget om den tidlige danske arbejderbevægelse.", "Arbejdernes levevilkår og arbejderbevægelsens opståen."   ],
+        "svarmuligheder": ["At sige noget om magthavernes syn på arbejderbevægelsen", "At sige noget om den tidlige danske arbejderbevægelse."],
         "feedback": "Kilden fortæller os om arbejderbevægelsens opståen, grundlæggende tanker og kamp for bedre vilkår."
 
     }]
-}, {
-    "kilde": "http://www.kommunikationsforum.dk/log/multimedia/billeder%20til%20artikler/reklamekanon/ennytid2.jpg",
-    "kilde_type": "pic",
-    "opts": [{
-        "spm": "Hvem meddeler sig?",
-        "korrekt_svar": "Journalisten",
-        "svarmuligheder": ["Politiet", "Estrup", "Journalisten", "Dronningen"],
-        "feedback": ""
 
-    }, {
-        "spm": "Hvad siger Napoleon?",
-        "korrekt_svar": "korrekt_svar",
-        "svarmuligheder": ["forkerte_svar[0]", "forkerte_svar[1]", "forkerte_svar[2]"],
-        "feedback": ""
-
-    }]
 }]
