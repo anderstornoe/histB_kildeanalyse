@@ -50,7 +50,13 @@ function next_round() {
     } else if (kilde_type == "video") {
         $(".kilde_container").append("<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/" + JsonObj[runde].kilde + "'frameborder='0' allowfullscreen='1'></iframe>");
     } else if (kilde_type == "pic") {
-        $(".kilde_container").append("<img class='pic' src='" + JsonObj[runde].kilde + "'>");
+        $(".kilde_container").append("<div data-toggle='modal' data-target='#myModal'><img class='pic' src='" + JsonObj[runde].kilde + "'></div>");
+        var parent_height = $(".pic").parent().parent().height();
+        $(".pic").css("height" , parent_height);
+        modal();
+        $(".modal-body").html("<img src='" + JsonObj[runde].kilde + "'/>");
+        
+
     }
     next_del_round();
 }
@@ -75,6 +81,7 @@ function check_answer() {
     var dropdown_value = $(".dropdown").val();
 
     if (korrekt_svar === true) {
+        score++;
 
         console.log("næste delrunde_spm");
 
@@ -87,7 +94,7 @@ function check_answer() {
             if (delrunde < JsonObj[runde].opts.length) {
                 next_del_round();
             } else {
-                $(".dropdown").fadeOut(0);
+                $(".dropdown").fadeOut(0); 
                 $(".checkAnswer").fadeOut(0);
                 $(".QuestionTask").fadeOut(0).html("Du har stillet kilden en mængde spørgsmål og kan læse den samlede kildeanalyse her:").fadeIn(2000);
                 runde++;
@@ -101,7 +108,7 @@ function check_answer() {
                     });
                 }
             }
-            score++;
+            
         });
         console.log("move on");
         //update_text();
@@ -117,7 +124,9 @@ function check_answer() {
 }
 
 function opdater_score(){
+    console.log("opdaf");
     $(".score").html("Rigtige svar: " + score + "/" + JsonObj[runde].opts.length +" Fejl: " + fejl);
+
 }
 
 function loadData(url) {

@@ -11,12 +11,12 @@
         "spm": "Hvem skal modtage budskabet",
         "korrekt_svar": 5,
         "svarmuligheder": ["Mændene","Kvinderne","De politiske modstandere","Kernefamilien","Vælgerne"],
-        "feedback": " til vælgerne."
+        "feedback": " til vælgerne "
 
     }, {
         "spm": "Hvornår er kilden fra?",
         "korrekt_svar": 2,
-        "svarmuligheder": ["1945","1960","1915","1970","1915","1960"],
+        "svarmuligheder": ["1920'erne","1960'erne","2000'erne"],
         "feedback": "i 1960."
 
     }, {
@@ -35,13 +35,13 @@
         "spm": "Hvordan vil kilden fortælle os det?",
         "korrekt_svar": 2,
         "svarmuligheder": ["ved at vise os, at familien er tryg","ved at have kernefamilien som det centrale og så suppleret med tekst.","ved at vise Socialdemokraternes logo som det centrale","ved at fortælle os, hvad de politiske modstandere vil gøre","ved at sætte individet i centrum,"],
-        "feedback": "<br/>Det centrale motiv på plakaten er kernefamilien, suppleret med teksten der har til formål at<br/>"
+        "feedback": "<br/>Det centrale motiv på plakaten er kernefamilien, suppleret med teksten der har til formål at "
 
     }, {
         "spm": "Hvad er formålet med kilden?",
         "korrekt_svar": 5,
         "svarmuligheder": ["at vise os, at kernefamilien er den rigtige måde at indrette os på.","at overbevise os om, at de politiske modstandere tager fejl","at forbedre økonomien","at forstå det danske samfund","at vi skal stemme på Socialdemokratiet"],
-        "feedback": "få os til at stemme på Socialdemokratiet <br/>"
+        "feedback": "få os til at stemme på Socialdemokratiet "
 
     }, {
         "spm": "Hvilken situation er plakaten opstået i?",
