@@ -1,0 +1,60 @@
+[{
+    "kilde": "kilder/pio.txt",
+    "kilde_type": "text",
+    "opts": [{
+        "spm": "Hvem udtaler sig?",
+        "korrekt_svar": 1,
+        "svarmuligheder": ["Socialdemokratiet","Regeringen","Folketinget","Kernefamilien","Kvinderne"],
+        "feedback": "I denne kilde henvender Socialdemokratiet sig"
+
+    }, {
+        "spm": "Hvem skal modtage budskabet",
+        "korrekt_svar": 5,
+        "svarmuligheder": ["Mændene,Kvinderne,De politiske modstandere,Kernefamilien,Vælgerne"],
+        "feedback": "til vælgerne"
+
+    }, {
+        "spm": "Hvornår er kilden fra?",
+        "korrekt_svar": 2,
+        "svarmuligheder": ["1945,1960,1915,1970,1915,1960"],
+        "feedback": "<br/>Louis Pio meddeler sig i dagbladet Socialisten den 2. maj 1872."
+
+    }, {
+        "spm": "Hvilket tema omhandler billedet?",
+        "korrekt_svar": 3,
+        "svarmuligheder": ["Udviskning af kønsrollerne,Børnene som den danske stats fremtid,Kernefamilien og beskæftigelse,Krisen skal overståes,Kernefamiliens udfasning"],
+        "feedback": "<br/>Den omhandler beskæftigelsen, og sætter kernefamilien i centrum af samfundsordenen."
+
+    }, {
+        "spm": "Hvad vil kilden fortælle os?",
+        "korrekt_svar": 4,
+        "svarmuligheder": ["at kernefamilien er det eneste rigtige,at mandens job er farligt,at kvinder skal gå hjemme,"at økonomien er på vej op, og kernefamilien er samfundets fundament.",at manden har fået en ny rolle i familien"],
+        "feedback": "<br/>Pios hovedbudskab er, at arbejderklassen ikke skal finde sig i mere undertrykkelse."
+
+    }, {
+        "spm": "Hvordan meddeler Louis Pio sig i artiklen?",
+        "korrekt_svar": 2,
+        "svarmuligheder": ["På en ironisk måde", "Med mange negativt- og positivt ladede ord.", "På en munter måde", "Med religiøse undertoner"],
+        "feedback": "<br/>Ved at sætte klare sproglige modsætninger op mellem de gode (arbejderne) og de onde (magthaverne) søger Pio en større gennemslagskraft. <br/>"
+
+    }, {
+        "spm": "Med hvilket formål meddeler Louis Pio sig?",
+        "korrekt_svar": 1,
+        "svarmuligheder": ["At samle arbejderne til kamp og true magthaverne.", "At lave revolution", "At indkalde til strejke.", "Til at besætte tomme lejligheder i København"],
+        "feedback": "Louis Pios formål er dels at samle arbejderne til kamp og ytre en trussel imod magthaverne. <br/>"
+
+    }, {
+        "spm": "I hvilken situation meddeler Pio sig?",
+        "korrekt_svar": 2,
+        "svarmuligheder": ["Som følge af grundlovens indførelse i 1872", "På baggrund af konflikter mellem arbejdere og arbejdsgivere i 1872", "På baggrund af en sultestrejke."],
+        "feedback": "Pios artikel udspringer af store konflikter mellem arbejdsmarkedets parter i 1870'erne.<br/>"
+
+    }, {
+        "spm": "Hvad kan kilden bruges til?",
+        "korrekt_svar": 2,
+        "svarmuligheder": ["At sige noget om magthavernes syn på arbejderbevægelsen", "At sige noget om den tidlige danske arbejderbevægelse."],
+        "feedback": "Kilden fortæller os om arbejderbevægelsens opståen, grundlæggende tanker og kamp for bedre vilkår."
+
+    }]
+
+}]
