@@ -8,7 +8,7 @@
         "feedback": "I denne kilde henvender Socialdemokratiet sig"
 
     }, {
-        "spm": "Hvem skal modtage budskabet",
+        "spm": "Hvem skal modtage budskabet?",
         "korrekt_svar": 5,
         "svarmuligheder": ["Mændene","Kvinderne","De politiske modstandere","Kernefamilien","Vælgerne"],
         "feedback": " til vælgerne "
@@ -28,31 +28,31 @@
     }, {
         "spm": "Hvad vil kilden fortælle os?",
         "korrekt_svar": 4,
-        "svarmuligheder": ["at kernefamilien er det eneste rigtige","at mandens job er farligt","at kvinder skal gå hjemme","at økonomien er på vej op og kernefamilien er samfundets fundament.","at manden har fået en ny rolle i familien"],
+        "svarmuligheder": ["At kernefamilien er det eneste rigtige","At mandens job er farligt","At kvinder skal gå hjemme","At økonomien er på vej op og kernefamilien er samfundets fundament","At manden har fået en ny rolle i familien"],
         "feedback": "<br/>Hovedbudskabet er, at økonomien er i bedring, og at kernefamilien er samfundets  basisstruktur."
 
     }, {
         "spm": "Hvordan vil kilden fortælle os det?",
         "korrekt_svar": 2,
-        "svarmuligheder": ["ved at vise os, at familien er tryg","ved at have kernefamilien som det centrale og så suppleret med tekst.","ved at vise Socialdemokraternes logo som det centrale","ved at fortælle os, hvad de politiske modstandere vil gøre","ved at sætte individet i centrum,"],
+        "svarmuligheder": ["Ved at vise os, at familien er tryg","Ved at have kernefamilien som det centrale og så suppleret med tekst","Ved at vise Socialdemokraternes logo som det centrale","Ved at fortælle os, hvad de politiske modstandere vil gøre","Ved at sætte individet i centrum"],
         "feedback": "<br/>Det centrale motiv på plakaten er kernefamilien, suppleret med teksten der har til formål at "
 
     }, {
         "spm": "Hvad er formålet med kilden?",
         "korrekt_svar": 5,
-        "svarmuligheder": ["at vise os, at kernefamilien er den rigtige måde at indrette os på.","at overbevise os om, at de politiske modstandere tager fejl","at forbedre økonomien","at forstå det danske samfund","at vi skal stemme på Socialdemokratiet"],
+        "svarmuligheder": ["At vise os, at kernefamilien er den rigtige måde at indrette os på","At overbevise os om, at de politiske modstandere tager fejl","At forbedre økonomien","At forstå det danske samfund","At vi skal stemme på Socialdemokratiet"],
         "feedback": "få os til at stemme på Socialdemokratiet "
 
     }, {
         "spm": "Hvilken situation er plakaten opstået i?",
         "korrekt_svar": 3,
-        "svarmuligheder": ["folketingsvalg 1960, hvor Socialdemokratiet skulle have magten tilbage.","kommunalvalg 1960 hvor Socialdemokratiet ville miste borgermesterposter rundt omkring i landet","Folketingsvalg 1960"," i en situation hvor Socialdemokratiet havde haft magten i 7 år, og derfor ville holde deres kurs for det fremtidige Danmark.","Socialdemokratiets krise i 50'erne skulle stoppes med fokus på økonomiske spørgsmål","en opbremsning af velfærdsydelser.","ved folketingsvalg 1960,"],
+        "svarmuligheder": ["Folketingsvalg 1960, hvor Socialdemokratiet skulle have magten tilbage.","Kommunalvalg 1960 hvor Socialdemokratiet ville miste borgermesterposter rundt omkring i landet","Ved folketingsvalget i 1960","I en situation hvor Socialdemokratiet havde haft magten i 7 år, og derfor ville holde deres politiske kurs","Socialdemokratiets krise i 50'erne skulle stoppes med fokus på økonomiske spørgsmål","En opbremsning af velfærdsydelser"],
         "feedback": "i en situation hvor Socialdemokratiet havde haft magten i 7 år, og derfor ville holde deres kurs for det fremtidige Danmark.<br/>"
 
     }, {
         "spm": "Hvad kan kilden bruges til?",
         "korrekt_svar": 1,
-        "svarmuligheder": ["at sige noget om samfundets udvikling, samt Socialdemokratiets syn på familieliv og økonomi omkring 1960.","sige noget objektivt om dansk økonomi fra 50'erne til 60'erne","at sige noget om hvordan det var at vokse op i 1960","at sige noget om den politiske kamp i 60'erne","intet."],
+        "svarmuligheder": ["At sige noget om samfundets udvikling, samt Socialdemokratiets syn på familieliv og økonomi omkring 1960.","At sige noget objektivt om dansk økonomi fra 50'erne til 60'erne","At sige noget om hvordan det var at vokse op i 1960","At sige noget om den politiske kamp i 60'erne","intet."],
         "feedback": "Vi kan altså bruge kilden til at sige noget om samfundets udvikling, samt Socialdemokratiets syn på familieliv og økonomi omkring 1960."
 
     }]
