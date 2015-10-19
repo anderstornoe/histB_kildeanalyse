@@ -1,0 +1,54 @@
+[{
+    "kilde": "http://danmarkshistorien.dk/uploads/RTEmagicC_scan0003_01.jpg.jpg",
+    "kilde_type": "pic",
+    "opts": [{
+        "spm": "Hvem står bag reklamen?",
+        "korrekt_svar": 3,
+        "svarmuligheder": ["Billedbladet"," Et amerikansk firma, som laver chokoladespecialiteter ","Det danske chokoladefirma Toms"],
+        "feedback": "I denne kilde henvender den danske chokoladeproducent ’Toms fabrikker’ sig modtager til læserne i Billedbladet,"
+
+    }, {
+        "spm": "Hvem er reklamen henvendt til?",
+        "korrekt_svar": 1,
+        "svarmuligheder": ["Billedbladets læsere","Billedbladets redaktion","Amerikanere i Danmark"],
+        "feedback": "dvs. til den brede danske befolkning.<br/>"
+
+    }, {
+        "spm": "Hvornår er reklamen trykt?",
+        "korrekt_svar": 3,
+        "svarmuligheder": ["2012", "1993", "1955"],
+        "feedback": "Reklamen er publiceret d. 8. november 1955."
+
+    }, {
+        "spm": "Hvad vil reklamen fortælle læseren?",
+        "korrekt_svar": 1,
+        "svarmuligheder": ["At baren er en amerikansk specialitet","At baren er af gammel dansk tradition","At man har brugt de bedste råvarer","At smagen er fantastisk"],
+        "feedback": "<br/>Det egentlige budskab er, at chokoladebaren er amerikansk (selvom den jo er produceret i Danmark af et dansk firma).  "
+
+    }, {
+        "spm": "Hvordan sender reklamen dette budskab?",
+        "korrekt_svar": 3,
+        "svarmuligheder": ["Beviser at opskriften er amerikansk","Forklarer at chokoladen er fremstillet i USA","Den knytter chokoladebaren sammen med USA gennem billede og tekst"],
+        "feedback": "<br/>Ved hjælp af billeder og korte fraser kæder reklamen chokoladebaren sammen med USA. "
+
+    }, {
+        "spm": "Hvorfor benytter Toms sig af dette budskab?",
+        "korrekt_svar": 1,
+        "svarmuligheder": ["For at sælge mere chokolade til danskerne","For at komme ind på det amerikanske marked","For at hylde USA for landets andel i 2. verdenskrig","For at drille nationalistisk sindede danskere"],
+        "feedback": "<br/>Formålet med kilden er at sælge mere chokolade til danskerne."
+
+    }, {
+        "spm": "Hvad er reklamens historiske kontekst?",
+        "korrekt_svar": 2,
+        "svarmuligheder": ["Danmark ventede besøg fra den amerikanske præsident senere på måneden","Alt amerikansk var populært i Danmark i perioden","Det var 10-året for den amerikanske befrielse af Danmark i 1945","Amerikansk chokolade var kendt for at være det bedste"],
+        "feedback": "<br/>I årerne efter anden verdenskrig var USA – og alt amerikansk – af flere grunde særdeles populært i Danmark og resten af Vesteuropa. "
+
+    }, {
+        "spm": "Hvad kan vi bruge reklamen til som kilde?",
+        "korrekt_svar": 1,
+        "svarmuligheder": ["Den illustrerer, at amerikansk kultur var særdeles populært i efterkrigstidens Danmark ","Den viser at amerikanske varer flød ind over det danske marked"],
+        "feedback": "<br/>Kilden viser med al tydelighed, at dette er tilfældet, når en chokoladebar, som vel at mærke ikke er amerikansk, forsøges at blive solgt udelukkende ved at kæde baren sammen med det amerikanske. Kilden er med andre ord et godt eksempel på den amerikanisering, som fandt sted i det danske samfund i denne periode."
+
+    }]
+
+}]
