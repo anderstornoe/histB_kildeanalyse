@@ -1,0 +1,54 @@
+[{
+    "kilde": "kilder/familie_journal.txt",
+    "kilde_type": "text",
+    "opts": [{
+        "spm": "Hvem er afsenderen?",
+        "korrekt_svar": 3,
+        "svarmuligheder": ["Konen fra provinsen","Illustreret Familie-Journal","Konen fra provinsen og Illustreret Familie-Journal"],
+        "feedback": "Kildens afsender er 'Konen fra provinsen' og ugebladet Illustreret Familie-Journal.<br/>"
+
+    }, {
+        "spm": "Hvem er modtageren?",
+        "korrekt_svar": 4,
+        "svarmuligheder": ["Konen fra provinsens søster","Konen fra provinsens mand  ","Statsministeren","Læserne af Illustreret Familie-Journal og brevkasseredaktøren","Konen fra provinsen"],
+        "feedback": "Denne kilde henvender sig til brevkasseredaktøren i ugebladet og bladets læsere."
+
+    }, {
+        "spm": "Hvornår er kilden fra?",
+        "korrekt_svar": 3,
+        "svarmuligheder": ["21:07:57","Julen 1958","21/05/1957","Sommeren 1989","2001"],
+        "feedback": "<br/>Denne kilde blev bragt i Illustreret Famillie-Journal den 21. Maj, 1957"
+
+    }, {
+        "spm": "Hvad er temaerne i kilden?",
+        "korrekt_svar": 2,
+        "svarmuligheder": ["Alkoholproblemer","Ægteskab, kønsroller og økonomi","Kønsroller og mad","Skilsmisse","Søskende-jalousi","Seksualitet og ægteskab"],
+        "feedback": "<br/>Hovedpunkterne i kvindens spørgsmål er ægteskab, kønsroller og økonomi og "
+
+    }, {
+        "spm": "Hvordan er sproget i spørgmålet?",
+        "korrekt_svar": 1,
+        "svarmuligheder": ["Høfligt","Upassende","Barnligt","Vredt","Ironisk","Opmuntrende"],
+        "feedback": "sproget i brevet er høfligt."
+
+    }, {
+        "spm": "Med hvilket formål skriver Kvinden i provinsen?",
+        "korrekt_svar": 4,
+        "svarmuligheder": ["Hun vil drille sin mand","Hun ønsker flere børn","Hun ønsker søsteren skal forstå","Hun ønsker råd og opbakning til sin egen holdning","Hun ønsker at få et arbejde","Hun ønsker at blive skilt"],
+        "feedback": "<br/>Formålet med at 'Kvinden fra provinsen' skriver sit brev er, at hun ønsker bekræftelse i, at hendes livssituation er frustrerende."
+
+    }, {
+        "spm": "Hvad siger læserbrevet om kønsrollerne i 1957?",
+        "korrekt_svar": 2,
+        "svarmuligheder": ["At kvinder og mænd var ligestillede","At kvinderne var underlagt mandens økonomiske beslutninger","At manden var underlagt kvindernes beslutninger","At der var frihed til både mænd og kvinder"],
+        "feedback": "<br/>Frustrationen bunder i at kvinden er underlagt mandens beslutninger og ikke har økonomisk frihed."
+
+    }, {
+        "spm": "Hvad kan kilden derudover bruges til?",
+        "korrekt_svar": 1,
+        "svarmuligheder": ["At sige noget om forestillinger om kønsroller i 50´erne og et samfund i forandring","At vise noget om levestandarden i 1950érne","At vise noget om uddannelsesniveau for kvinder"],
+        "feedback": "<br/>At sige noget om forestillinger om kønsroller i 50´erne og indikerer at kønsrollerne er i opbrud og samfundet er i forandring. At brevet bliver bragt Illustret Famile-Journal, fortæller os, at kvinden ikke står alene med sin utilfredshed."
+
+    }]
+
+}]
