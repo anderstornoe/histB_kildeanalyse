@@ -24,7 +24,7 @@ disse festaftner, når regningen bliver præsenteret én bagefter.
 <br/>
 <br/>
 
-<div data-toggle='modal' data-target='#myModal'><a>Læs Ove Ditlevsens svar</a></div>
+<div data-toggle='modal' data-target='#myModal'><a style="cursor:pointer;">Læs Tove Ditlevsens svar</a></div>
 
 <script>
 	modal(); 

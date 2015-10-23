@@ -11,7 +11,7 @@
     }, {
         "spm": "Hvem er modtageren?",
         "korrekt_svar": 4,
-        "svarmuligheder": ["Konen fra provinsens søster","Konen fra provinsens mand  ","Statsministeren","Læserne af Illustreret Familie-Journal og brevkasseredaktøren","Konen fra provinsen"],
+        "svarmuligheder": ["Konen fra provinsens søster","Konen fra provinsens mand","Ove Ditlevsen","Statsministeren","Læserne af Illustreret Familie-Journal og brevkasseredaktøren","Konen fra provinsen"],
         "feedback": "Denne kilde henvender sig til brevkasseredaktøren i ugebladet og bladets læsere."
 
     }, {
