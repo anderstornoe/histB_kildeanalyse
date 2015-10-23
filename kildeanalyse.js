@@ -3,12 +3,15 @@ var JsonObj,
     delrunde = 0,
     korrekt = false,
     score = 0,
-    fejl = 0;
-var hejsa = "";
+    fejl = 0,
+    samletfeedback,
+    hejsa = "";
 
 
 
 $(document).ready(function() {
+    collectanswers();
+    insert_kildecontainer();
 
     $(".checkAnswer").click(check_answer);
 
@@ -27,6 +30,20 @@ $(document).ready(function() {
 
     });
 });
+
+function insert_kildecontainer() {
+    $(".right_container").prepend("<div class='kilde_henvisning'>" + JsonObj[runde].kilde_info + "</div>");
+}
+
+function collectanswers() {
+    var HTML = "";
+    for (var i = 0; i < JsonObj[0].opts.length; i++) {
+
+        HTML = HTML + JsonObj[0].opts[i].spm + ": <b>" + JsonObj[0].opts[i].svarmuligheder[JsonObj[0].opts[i].korrekt_svar - 1] + "</b><br/>";
+    }
+    
+    samletfeedback = HTML;
+};
 
 
 function next_round() {
@@ -52,10 +69,10 @@ function next_round() {
     } else if (kilde_type == "pic") {
         $(".kilde_container").append("<div data-toggle='modal' data-target='#myModal'><img class='pic' src='" + JsonObj[runde].kilde + "'></div>");
         var parent_height = $(".pic").parent().parent().height();
-        $(".pic").css("height" , parent_height);
+        $(".pic").css("height", parent_height);
         modal();
         $(".modal-body").html("<img src='" + JsonObj[runde].kilde + "'/>");
-        
+
 
     }
     next_del_round();
@@ -94,7 +111,7 @@ function check_answer() {
             if (delrunde < JsonObj[runde].opts.length) {
                 next_del_round();
             } else {
-                $(".dropdown").fadeOut(0); 
+                $(".dropdown").fadeOut(0);
                 $(".checkAnswer").fadeOut(0);
                 $(".QuestionTask").fadeOut(0).html("Du har stillet kilden en mængde spørgsmål og kan læse den samlede kildeanalyse her:").fadeIn(2000);
                 runde++;
@@ -102,13 +119,14 @@ function check_answer() {
                     $(".spm_container").append("<div class='btn btn-primary continue'>Næste kilde</div>");
                     $(".continue").click(next_round);
                 } else {
-                    $(".spm_container").append("Opgaven er slut. <br/><div class='btn btn-primary again'>Prøv igen</div>");
+                    $(".spm_container").append("<div class='btn btn-primary again'>Prøv igen</div>");
+                    UserMsgBox("html", "Opgaven er slut. <br/><h2>Spørgsmål og svar: </h2>" + samletfeedback);
                     $(".again").click(function() {
                         location.reload();
                     });
                 }
             }
-            
+
         });
         console.log("move on");
         //update_text();
@@ -123,9 +141,9 @@ function check_answer() {
     opdater_score();
 }
 
-function opdater_score(){
+function opdater_score() {
     console.log("opdaf");
-    $(".score").html("Rigtige svar: " + score + "/" + JsonObj[runde].opts.length +" Fejl: " + fejl);
+    $(".score").html("Rigtige svar: " + score + "/" + JsonObj[runde].opts.length + " Fejl: " + fejl);
 
 }
 

@@ -1,6 +1,7 @@
 [{
     "kilde": "kilder/pio.txt",
     "kilde_type": "text",
+    "kilde_info": "<b>Mødeindkaldelse ledsaget af artikel skrevet af Louis Pio trykt i 'Socialisten' 2. maj 1872<br/>Kilde: <a href='http://danmarkshistorien.dk/leksikon-og-kilder/vis/materiale/louis-pio-maalet-er-fuldt-1872'>danmarkshistorien.dk/leksikon-og-kilder/vis/materiale/louis-pio-maalet-er-fuldt-1872</a>",
     "opts": [{
         "spm": "Hvem meddeler sig?",
         "korrekt_svar": 3,

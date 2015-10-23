@@ -1,8 +1,6 @@
 <div class="kilde_wrapping"><p>'Konen fra provinsen' skriver til Tove Ditlevsen, der var forfatter og brevkasseredaktør i Illustreret Familie-Journal fra 1956-76. </p>
 </div>
-<b>Fra en brevkasse i Illustreret Familie-Journal,  21. Maj, 1957
 
-</b><br/><br/>
 
 Min søster og jeg har hver fået sin uddannelse, som vi opgav, da vi blev gift. Nu har vi kun vore 
 
@@ -12,7 +10,7 @@ opfattelse, at det jo faktisk kun er et lån, da det jo kommer tilbage på mange
 
 mand. Hun har fået bevilget en mindre sum, som er hendes egen. Jeg vil nu ikke bede om 
 
-dette, for jeg vil så hellere prøve at spare lidt. <br/>Men der er noget helt andet, jeg har lyst til, når 
+dette, for jeg vil så hellere prøve at spare lidt. <br/><br/>Men der er noget helt andet, jeg har lyst til, når 
 
 børnene og min mand og jeg er ude, og det er simpelt hen at betale for mig selv. Ville De kunne 
 
@@ -23,3 +21,12 @@ kostet, som De har nydt? Jeg bestiller altid det billigste, der fås, til mig se
 meget godt i det økonomisk, men heller ikke det hjælper. <br/>Det tager jo unægtelig al glæden ved 
 
 disse festaftner, når regningen bliver præsenteret én bagefter.
+<br/>
+<br/>
+
+<div data-toggle='modal' data-target='#myModal'><a>Læs Ove Ditlevsens svar</a></div>
+
+<script>
+	modal(); 
+	$(".modal-body").html("Kære ”Kone fra Provinsen” <br/>Nej, det ville jeg bestemt ikke kunne holde ud. I Deres sted ville jeg – i al spøgefuldhed – præsentere manden for lignende ”regninger” i form af en nøjagtig redegørelse for huslig arbejdsydelse, opgjort efter den lokale tarif for konehjælp. Det ville blive et ganske pænt beløb i forhold til Deres beskedne udskejelser på ”festaftnerne”. <br/>For øvrigt skulle De prøve at forklare Deres mand, at han opfører sig småligt og taktløst, og at De foretrækker at blive hjemme frem for at udsætte Dem for en så ydmygende behandling. Der findes næppe to familier, hvor ordningen af økonomien er fuldstændig ens, men ordnes skal den, og det på en måde, som begge ægtefæller føler sig tilfreds med. <br/>I modsat fald bliver den ulige fordeling af de penge, som bør være et fælles anliggende, at for ofte det skær, den ægteskabelige lykke strander på – og det er da ganske meningsløst. Hvorfor ikke bede om en rimelig sum til personlige udgifter ligesom Deres søster? Det er da meget bedre end at spare på husholdningspengene, for trist og kneben kost er nu aldrig befordrende for familiens trivsel. <BR/><BR/>Med venlig hilsen, Deres Tove Ditlevsen");
+</script>

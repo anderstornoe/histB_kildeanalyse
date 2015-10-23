@@ -1,6 +1,7 @@
 [{
     "kilde": "kilder/4-plakater-tryghed.jpg",
     "kilde_type": "pic",
+    "kilde_info": "Tryghed i beskæftigelsen. Gør gode tider bedre!, 1960. <br/>Kilde: Arbejderbevægelsens Bibliotek og Arkiv",
     "opts": [{
         "spm": "Hvem udtaler sig?",
         "korrekt_svar": 1,

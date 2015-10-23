@@ -1,6 +1,7 @@
 [{
     "kilde": "kilder/familie_journal.txt",
     "kilde_type": "text",
+    "kilde_info": "Spørgsmål til brevkassen i Illustreret Familie-Journal,  21. Maj, 1957<br/>Kilde: Aschehoug, Livet er ikke en strøgtur, 2001, s. 202",
     "opts": [{
         "spm": "Hvem er afsenderen?",
         "korrekt_svar": 3,
@@ -47,7 +48,7 @@
         "spm": "Hvad kan kilden derudover bruges til?",
         "korrekt_svar": 1,
         "svarmuligheder": ["At sige noget om forestillinger om kønsroller i 50´erne og et samfund i forandring","At vise noget om levestandarden i 1950érne","At vise noget om uddannelsesniveau for kvinder"],
-        "feedback": "<br/>At sige noget om forestillinger om kønsroller i 50´erne og indikerer at kønsrollerne er i opbrud og samfundet er i forandring. At brevet bliver bragt Illustret Famile-Journal, fortæller os, at kvinden ikke står alene med sin utilfredshed."
+        "feedback": "<br/>Kilden kan bruges til at sige noget om forestillinger om kønsroller i 50´erne. Den indikerer, at kønsrollerne er i opbrud og samfundet er i forandring. At brevet bliver bragt Illustreret Famile-Journal, fortæller os, at kvinden ikke står alene med sin utilfredshed."
 
     }]
 

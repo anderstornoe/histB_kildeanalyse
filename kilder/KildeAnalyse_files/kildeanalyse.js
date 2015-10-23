@@ -9,6 +9,8 @@ var hejsa = "";
 
 
 $(document).ready(function() {
+ //alert("Så er der kilder!");
+    addKildehenvisning();
 
     $(".checkAnswer").click(check_answer);
 
@@ -28,6 +30,9 @@ $(document).ready(function() {
     });
 });
 
+function addKildehenvisning(){
+    $(".kilde_container").prepend("<div class='kilde_henvisning'>Så er der kilder!</div>");
+}
 
 function next_round() {
 

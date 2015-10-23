@@ -1,0 +1,55 @@
+[{
+    "kilde": "kilder/hornemann.txt",
+    "kilde_type": "text",
+    "kilde_info": "Læge Emil Hornemann til Sundhedskommissionen 4.11.1870.<br/>Kilde: <a href='http://www.emu.dk/sites/default/files/11.%20Hornemann%20til%20sundhedskommissionen%204.11.1870_0.pdf'>emu.dk/sites/default/files/11.%20Hornemann%20til%20sundhedskommissionen%204.11.1870_0.pdf</a>",
+    "opts": [{
+        "spm": "Hvem har skrevet teksten?",
+        "korrekt_svar": 2,
+        "svarmuligheder": ["Borgmesteren","Læge Emil Hornemann","Beboerne","En journalist"],
+        "feedback": "Denne tekst er skrevet af Læge Emil Hornemann"
+
+    }, {
+        "spm": "Hvem henvender teksten sig til?",
+        "korrekt_svar": 3,
+        "svarmuligheder": ["Beboerne i den gade Hornemann omtaler","Politiet","Sundhedskommissionen"],
+        "feedback": " og henvender sig til sundhedskommissionen"
+
+    }, {
+        "spm": "Hvornår er teksten skrevet?",
+        "korrekt_svar": 1,
+        "svarmuligheder": ["1870","1873","1863"],
+        "feedback": " i 1870."
+
+    }, {
+        "spm": "Hvad handler teksten om?",
+        "korrekt_svar": 3,
+        "svarmuligheder": ["Politiets arbejde og nedrivning af huse","Kbh. Kommunes interesse for sundhedsforholdene","Årsager til de dårlige sundhedsforhold og forekomsten af sygdomme","At beboerne i højere grad skal gøre mere rent"],
+        "feedback": "<br/>Teksten handler om årsager til de dårlige sundhedsforhold og forekomsten af sygdomme. <br/>"
+
+    }, {
+        "spm": "Hvordan bruger Hornemann sproget til at beskrive sundhedstilstanden?",
+        "korrekt_svar": 1,
+        "svarmuligheder": ["Han bruger mange tillægsord (fx usædelig og svinsk) der beskriver sundhedsforholdene","Hornemann bruger humor og ironi overfor beboerne","Lægen taler nedsættende til sundhedskommissionen","Lægen udtrykker sin vrede overfor beboerne"],
+        "feedback": "Hornemann bruger mange tillægsord (fx usædelig og svinsk) til at beskrive sundhedsforholdene i Peder Madsens gang."
+
+    }, {
+        "spm": "Hvad vil Hornemann med teksten?",
+        "korrekt_svar": 1,
+        "svarmuligheder": ["Han vil forbedre sundhedsforholdene","Han vil flytte beboere ud af byen","Han vil have politiet til at gribe ind","Han vil rive huse ned","Han vil lave forsøg med de syge mennesker"],
+        "feedback": "<br/>Formålet med teksten er at forbedre sundhedsforholdene"
+
+    }, {
+        "spm": "På hvilken baggrund skriver Hornemann teksten?",
+        "korrekt_svar": 2,
+        "svarmuligheder": ["Efter at der har været en stor borgerkrig","Efter der har været flere sygdomsepidemier","Efter at politiet har bedt om en undersøgelse"],
+        "feedback": " efter der har været flere sygdomsepidemier"
+
+    }, {
+        "spm": "Hvilke spørgsmål kan teksten svare på?",
+        "korrekt_svar": 3,
+        "svarmuligheder": ["Man kan få indsigt i sundhedskommissionens arbejde","Man kan lære om politiets arbejde","Man kan få indsigt i sundhedsforholdene i København og den måde en læge oplevede forholdene","Man kan lære om hvor mange der døde"],
+        "feedback": "<br/>Kilden kan bruges til at få indsigt i sundhedsforholdene i København og hvordan en samtidig læge oplevede forholdene."
+
+    }]
+
+}]
