@@ -1,0 +1,55 @@
+[{
+    "kilde": "kilder/valgret.txt",
+    "kilde_type": "text",
+    "kilde_info": "<p>Kvinders valgret. Hvorfor skal Kvinder have Valgret? Louise Nørlund 1904</p>Kilde: Aschehoug, Livet er ikke en strøgtur, 2001",
+    "opts": [{
+        "spm": "Hvem er afsenderen?",
+        "korrekt_svar": 2,
+        "svarmuligheder": ["Et folketingsmedlem", "Louise Nørlund", "En arbejder", "En ugift kvinde"],
+        "feedback": "Kildens afsender er Louise Nørlund, som var kvinderetsforkæmper."
+
+    }, {
+        "spm": "Hvem er modtageren?",
+        "korrekt_svar": 3,
+        "svarmuligheder": ["Folketinget", "Mændene", "Offentligheden", "Kvinderne"],
+        "feedback": "Hun henvender sig til den danske offentlighed, dvs. alle danskere."
+
+    }, {
+        "spm": "Hvornår er kilden skrevet?",
+        "korrekt_svar": 4,
+        "svarmuligheder": ["Efter kvinder har fået kommunal valgret?", "Efter den ugifte kvinde har fået valgret", "I en tid, hvor ingen har valgret", "I en tid, hvor kun mænd har valgret"],
+        "feedback": "<br/>Kilden er fra en tid, hvor kun mænd havde ret til at stemme og stille op til folketinget."
+
+    }, {
+        "spm": "Hvad er temaet i kilden?",
+        "korrekt_svar": 3,
+        "svarmuligheder": ["At samfundsmedlemmer både er kvinder og mænd", "At samfundsmedlemmer kun er kvinder", "At et godt samfund kræver mænd og kvinders deltagelse i beslutningerne", "At mænd er de bedste til sat beslutte", "At kvinder ikke egner sig til politik"],
+        "feedback": "<br/>Temaet er, at et godt samfund kræver mænd og kvinders deltagelse i beslutningerne"
+
+    }, {
+        "spm": "Hvad er hovedbudskabet i kilden?",
+        "korrekt_svar": 1,
+        "svarmuligheder": ["Giv alle kvinder valgret for samfundets skyld", "Mænd klarer bedst samfundsanliggender", "Kvinder og mænd kan ikke samarbejde", "Den gifte kvinde er lykkeligst uden valgret"],
+        "feedback": "<br/>Hovedbudskabet er, at kvinder skal have stemmeret og valgret for samfundets skyld."
+
+    }, {
+        "spm": "Hvilken form har kilden?",
+        "korrekt_svar": 1,
+        "svarmuligheder": ["En tale", "En artikel", "Et politisk indlæg", "Et brev"],
+        "feedback": "<br/>Kilden er en tale."
+
+    }, {
+        "spm": "Hvad er formålet med talen?",
+        "korrekt_svar": 2,
+        "svarmuligheder": ["At tale for kvindens rettigheder generelt", "At argumentere for kvindens politiske indflydelse", "At beskytte kvinderne", "At beskytte børn og kvinder"],
+        "feedback": "<br/>Formålet med talen er at at argumentere for kvindens politiske indflydelse "
+
+    }, {
+        "spm": "Hvilken situation opstår kilden i?",
+        "korrekt_svar": 1,
+        "svarmuligheder": ["Før en ændring af grundloven", "I forfatningskampen", "I oplysningstiden", "Efter 1. Verdenskrig"],
+        "feedback": "<br/>før en grundlovsændring."
+
+    }]
+
+}]
