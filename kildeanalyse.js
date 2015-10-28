@@ -108,7 +108,7 @@ function check_answer() {
 
             delrunde++;
 
-            if (delrunde < 0){ //JsonObj[runde].opts.length) {
+            if (delrunde < JsonObj[runde].opts.length) {
                 next_del_round();
             } else {
                 $(".dropdown").fadeOut(0);
