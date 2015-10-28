@@ -10,7 +10,7 @@
 
     }, {
         "spm": "Hvem er modtageren?",
-        "korrekt_svar": 4,
+        "korrekt_svar": 5,
         "svarmuligheder": ["Konen fra provinsens søster","Konen fra provinsens mand","Ove Ditlevsen","Statsministeren","Læserne af Illustreret Familie-Journal og brevkasseredaktøren","Konen fra provinsen"],
         "feedback": "Denne kilde henvender sig til brevkasseredaktøren i ugebladet og bladets læsere."
 
@@ -29,7 +29,7 @@
     }, {
         "spm": "Hvordan er sproget i spørgmålet?",
         "korrekt_svar": 1,
-        "svarmuligheder": ["Høfligt","Upassende","Barnligt","Vredt","Ironisk","Opmuntrende"],
+        "svarmuligheder": ["Høfligt","Upassende","Barnagtigt","Vredt","Ironisk","Opmuntrende"],
         "feedback": "sproget i brevet er høfligt."
 
     }, {

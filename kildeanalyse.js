@@ -108,7 +108,7 @@ function check_answer() {
 
             delrunde++;
 
-            if (delrunde < JsonObj[runde].opts.length) {
+            if (delrunde < 0){ //JsonObj[runde].opts.length) {
                 next_del_round();
             } else {
                 $(".dropdown").fadeOut(0);
@@ -120,7 +120,7 @@ function check_answer() {
                     $(".continue").click(next_round);
                 } else {
                     $(".spm_container").append("<div class='btn btn-primary again'>Prøv igen</div>");
-                    UserMsgBox("html", "Opgaven er slut. <br/><h2>Spørgsmål og svar: </h2>" + samletfeedback);
+                    UserMsgBox("html", "Opgaven er slut. <br/>Du havde <b>" + fejl + " </b>fejl.<br/><h2>Spørgsmål og rigtige svar: </h2>" + samletfeedback);
                     $(".again").click(function() {
                         location.reload();
                     });

@@ -1,12 +1,12 @@
 [{
     "kilde": "kilder/valgret.txt",
     "kilde_type": "text",
-    "kilde_info": "<p>Kvinders valgret. Hvorfor skal Kvinder have Valgret? Louise Nørlund 1904</p>Kilde: Aschehoug, Livet er ikke en strøgtur, 2001",
+    "kilde_info": "<p>Kvinders valgret. Hvorfor skal Kvinder have Valgret? Louise Nørlund 1904</p>Kilde: Dansk kvindesamfunds blad: Kvinden & Samfundet 12.2.1904 p. 22 (bladets årgang 20)",
     "opts": [{
         "spm": "Hvem er afsenderen?",
         "korrekt_svar": 2,
         "svarmuligheder": ["Et folketingsmedlem", "Louise Nørlund", "En arbejder", "En ugift kvinde"],
-        "feedback": "Kildens afsender er Louise Nørlund, som var kvinderetsforkæmper."
+        "feedback": "Kildens afsender er Louise Nørlund, som var kvinderetsforkæmper. "
 
     }, {
         "spm": "Hvem er modtageren?",
@@ -24,7 +24,7 @@
         "spm": "Hvad er temaet i kilden?",
         "korrekt_svar": 3,
         "svarmuligheder": ["At samfundsmedlemmer både er kvinder og mænd", "At samfundsmedlemmer kun er kvinder", "At et godt samfund kræver mænd og kvinders deltagelse i beslutningerne", "At mænd er de bedste til sat beslutte", "At kvinder ikke egner sig til politik"],
-        "feedback": "<br/>Temaet er, at et godt samfund kræver mænd og kvinders deltagelse i beslutningerne"
+        "feedback": "<br/>Temaet er, at et godt samfund kræver mænd og kvinders deltagelse i beslutningerne."
 
     }, {
         "spm": "Hvad er hovedbudskabet i kilden?",
@@ -34,21 +34,21 @@
 
     }, {
         "spm": "Hvilken form har kilden?",
-        "korrekt_svar": 1,
-        "svarmuligheder": ["En tale", "En artikel", "Et politisk indlæg", "Et brev"],
-        "feedback": "<br/>Kilden er en tale."
+        "korrekt_svar": 3,
+        "svarmuligheder": ["En tale", "En artikel", "Et debatindlæg", "Et brev"],
+        "feedback": "<br/>Kilden er en debatindlæg."
 
     }, {
         "spm": "Hvad er formålet med talen?",
         "korrekt_svar": 2,
-        "svarmuligheder": ["At tale for kvindens rettigheder generelt", "At argumentere for kvindens politiske indflydelse", "At beskytte kvinderne", "At beskytte børn og kvinder"],
-        "feedback": "<br/>Formålet med talen er at at argumentere for kvindens politiske indflydelse "
+        "svarmuligheder": ["At tale for kvindens rettigheder generelt", "At argumentere for kvinders indflydelse og overbevise mændene om kvinders valgret", "At anklage mændene"],
+        "feedback": "<br/>Formålet med talen er at argumentere for kvinders indflydelse og overbevise mændene om kvinders valgret "
 
     }, {
         "spm": "Hvilken situation opstår kilden i?",
-        "korrekt_svar": 1,
-        "svarmuligheder": ["Før en ændring af grundloven", "I forfatningskampen", "I oplysningstiden", "Efter 1. Verdenskrig"],
-        "feedback": "<br/>før en grundlovsændring."
+        "korrekt_svar": 3,
+        "svarmuligheder": ["I forfatningskampen", "I oplysningstiden", "I en periode, hvor man diskuterer ændring af grundloven","I 1. verdenskrig"],
+        "feedback": "i en periode, hvor man diskuterer ændring af grundloven."
 
     }]
 
