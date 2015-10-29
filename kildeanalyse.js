@@ -32,7 +32,7 @@ $(document).ready(function() {
 });
 
 function insert_kildecontainer() {
-    $(".right_container").prepend("<div class='kilde_henvisning'>" + JsonObj[runde].kilde_info + "</div>");
+    $(".right_container").append("<div class='kilde_henvisning'>" + JsonObj[runde].kilde_info + "</div>");
 }
 
 function collectanswers() {
@@ -142,8 +142,8 @@ function check_answer() {
 }
 
 function opdater_score() {
-    console.log("opdaf");
-    $(".score").html("Rigtige svar: " + score + "/" + JsonObj[runde].opts.length + " Fejl: " + fejl);
+    $(".score").html("<h5>Korrekte svar: <span class='QuestionCounter'>" + score + "/" + JsonObj[runde].opts.length + "</span> Fejl: <span class='ErrorCount'>"+fejl+"</span></h5>");
+    //"Rigtige svar: " + score + "/" + JsonObj[runde].opts.length + " Fejl: " + fejl);
 
 }
 
