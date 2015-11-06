@@ -5,56 +5,56 @@
     "opts": [{
         "spm": "Hvem er afsenderen?",
         "korrekt_svar": 3,
-        "svarmuligheder": ["Et folketingsmedlem", "Louise Nørlund", "Socialdemokratiet", "En ugift kvinde"],
-        "feedback": "Kildens afsender er Louise Nørlund, som var kvinderetsforkæmper. "
+        "svarmuligheder": ["Et folketingsmedlem", "Arbejderne", "Socialdemokratiet", "Kommunisterne"],
+        "feedback": "Kildens afsender er Socialdemokratiet. "
 
     }, {
-        "spm": "Hvem skal modtage budskabet?",
+        "spm": "Hvem henvender kilden sig til?",
         "korrekt_svar": 2,
-        "svarmuligheder": ["Folketinget", "Arbejderne", "Offentligheden", "Kvinderne"],
-        "feedback": "Hun henvender sig til den danske offentlighed, dvs. alle danskere."
+        "svarmuligheder": ["Folketinget", "Arbejderne", "Landmændene", "Kvinderne"],
+        "feedback": "Partiet henvender sig til de danske arbejdere, som normalt ville stemme på Socialdemokratiet, da de varetog arbejdernes interesser."
 
     }, {
         "spm": "Hvornår er kilden fra?",
         "korrekt_svar": 1,
-        "svarmuligheder": ["01/01/1947", "Efter den ugifte kvinde har fået valgret", "I en tid, hvor ingen har valgret", "I en tid, hvor kun mænd har valgret"],
-        "feedback": "<br/>Kilden er fra en tid, hvor kun mænd havde ret til at stemme og stille op til folketinget."
+        "svarmuligheder": ["1947", "1957", "2015", "Kilden kan ikke dateres"],
+        "feedback": "<br/>Socialdemokratiets valgplakat er fra 1947,"
 
     }, {
         "spm": "Hvilket tema omhandler kilden?",
         "korrekt_svar": 2,
-        "svarmuligheder": ["At samfundsmedlemmer både er kvinder og mænd", "Arbejderne og socialdemokratiet er vigtige for Danmarks genopbygning", "At et godt samfund kræver mænd og kvinders deltagelse i beslutningerne", "At mænd er de bedste til sat beslutte", "At kvinder ikke egner sig til politik"],
-        "feedback": "<br/>Temaet er, at et godt samfund kræver mænd og kvinders deltagelse i beslutningerne."
+        "svarmuligheder": ["At det er godt at arbejde", "At arbejderne og Socialdemokratiet er vigtige for Danmarks genopbygning", "At et godt samfund kræver mænd og kvinders deltagelse i beslutningerne", "At mænd er de bedste til at arbejde", "At kvinder ikke egner sig til politik"],
+        "feedback": "<br/> og temaet er, at arbejderne og Socialdemokratiet er vigtige for Danmarks genopbygning."
 
     }, {
-        "spm": "Hvad vil kilden fortælle os?",
+        "spm": "Hvad er kildens budskab?",
         "korrekt_svar": 3,
-        "svarmuligheder": ["Giv alle kvinder valgret for samfundets skyld", "Mænd klarer bedst samfundsanliggender", "At man som arbejder skal stemme på Socialdemokratiet", "Den gifte kvinde er lykkeligst uden valgret"],
-        "feedback": "<br/>Hovedbudskabet er, at kvinder skal have stemmeret og valgret for samfundets skyld."
+        "svarmuligheder": ["Giv alle kvinder valgret for samfundets skyld", "Mænd klarer bedst samfundsanliggender", "At man som arbejder skal stemme på Socialdemokratiet", "At den gifte kvinde er lykkeligst uden valgret"],
+        "feedback": "<br/>Kildens hovedbudskab er, at man som arbejder skal stemme på Socialdemokratiet,"
 
     }, {
         "spm": "Hvordan vil kilden fortælle os det?",
         "korrekt_svar": 1,
-        "svarmuligheder": ["Ved at forbinde det danske fællesskab med arbejderen og Socialdemokratiet og ved ikke at bruge den røde farve, som bruges af kommunisterne", "En artikel", "Et debatindlæg", "Et brev"],
-        "feedback": "<br/>Kilden er en debatindlæg."
+        "svarmuligheder": ["Ved at forbinde det danske fællesskab med arbejderen og Socialdemokratiet og ved ikke at bruge den røde farve, som bruges af kommunisterne", "Ved at bruge sort som baggrundsfarve styrkes budskabet om fællesskab", "Ved at bruge den gule farve som et symbol på den danske arbejder ", "Ved at male et billede af arbejdsforholdene på danske fabrikker"],
+        "feedback": "og den gør det ved at forbinde det danske fællesskab med arbejderen og Socialdemokratiet og ved ikke at bruge den røde farve, som bruges af kommunisterne, ."
 
     }, {
         "spm": "Hvad er formålet med kilden?",
         "korrekt_svar": 3,
-        "svarmuligheder": ["At tale for kvindens rettigheder generelt", "At argumentere for kvinders indflydelse og overbevise mændene om kvinders valgret", "Få arbejderne til at stemme på Socialdemokratiet"],
-        "feedback": "<br/>Formålet med talen er at argumentere for kvinders indflydelse og overbevise mændene om kvinders valgret "
+        "svarmuligheder": ["At tale for mandens rettigheder generelt", "At argumentere for arbejderens indflydelse på arbejdetsmarkedet", "At få arbejderne til at stemme på Socialdemokratiet"],
+        "feedback": "<br/> og derfor er formålet med plakaten at få arbejderne til at stemme på Socialdemokratiet."
 
     }, {
         "spm": "Hvilken situation er plakaten opstået i?",
         "korrekt_svar": 2,
-        "svarmuligheder": ["At tale for kvindens rettigheder generelt", "Efterkrigskrisen efter 2. verdenskrig og splittelsen i arbejderbevægelsens poltiske parter", "Få arbejderne til at stemme på Socialdemokratiet"],
-        "feedback": "<br/>Formålet med talen er at argumentere for kvinders indflydelse og overbevise mændene om kvinders valgret "
+        "svarmuligheder": ["Industrialiseringen i 1800-tallet", "Krisen efter 2. verdenskrig, hvor Socialdemokratiet ønsker at vinde vaglet", "I forbindelse med valget i 2015, hvor Socialdemokratiet taber"],
+        "feedback": "<br/>Plakaten er lavet i forbindelse med valget og i forlængelse af de samfundsmæssige udfordringer der er i Danmark efter 2. Verdenskrig, som man ønsker at gøre noget ved."
 
     }, {
-        "spm": "Hvad kan vi bruge kilden til?",
+        "spm": "Hvad kan kilden bruges til?",
         "korrekt_svar": 1,
-        "svarmuligheder": ["At sige noget den økonomiske sitation i 1947, hvem Socialdemokratietappelerer til, samt deres fokus på Danmark som fællesskab", "I oplysningstiden", "I en periode, hvor man diskuterer ændring af grundloven","I 1. verdenskrig"],
-        "feedback": "i en periode, hvor man diskuterer ændring af grundloven."
+        "svarmuligheder": ["At sige noget om den økonomiske sitation i 1947, hvem Socialdemokratiet appelerer til, samt deres fokus på Danmark og fællesskab", "At sige noget om, hvordan arbejdernes vilkår var under 2. Verdenskrig", "At belyse forholdet mellem mænd og kvinder i 1950’erne"],
+        "feedback": "Kilden kan fortælle os noget om den økonomiske sitation i 1947, hvem Socialdemokratiet appelerer til samt deres fokus på Danmark og fællesskab."
 
     }]
 

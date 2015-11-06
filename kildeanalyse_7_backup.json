@@ -1,0 +1,64 @@
+[{
+    "kilde": "kilder/bygDKop.jpg",
+    "kilde_type": "pic",
+    "kilde_info": "<p>Byg Danmark Op. Valgplakat fra socialdemokratiet 1947</p>Kilde: Plakaten er venligt udlånt af Arbejdermuseet",
+    "opts": [{
+        "spm": "Hvem er afsenderen?",
+        "korrekt_svar": 3,
+        "svarmuligheder": ["Et folketingsmedlem", "Louise Nørlund", "Socialdemokratiet", "Kommunisterne"],
+        "feedback": "Kildens afsender er Louise Nørlund, som var kvinderetsforkæmper. "
+
+    }, {
+        "spm": "Hvem skal modtage budskabet?",
+        "korrekt_svar": 2,
+        "svarmuligheder": ["Folketinget", "Arbejderne", "Offentligheden", "Kvinderne"],
+        "feedback": "Hun henvender sig til den danske offentlighed, dvs. alle danskere."
+
+    }, {
+        "spm": "Hvornår er kilden fra?",
+        "korrekt_svar": 1,
+        "svarmuligheder": ["01/01/1947", "Efter den ugifte kvinde har fået valgret", "I en tid, hvor ingen har valgret", "I en tid, hvor kun mænd har valgret"],
+        "feedback": "<br/>Kilden er fra en tid, hvor kun mænd havde ret til at stemme og stille op til folketinget."
+
+    }, {
+        "spm": "Hvilket tema omhandler kilden?",
+        "korrekt_svar": 2,
+        "svarmuligheder": ["At samfundsmedlemmer både er kvinder og mænd", "Arbejderne og socialdemokratiet er vigtige for Danmarks genopbygning", "At et godt samfund kræver mænd og kvinders deltagelse i beslutningerne", "At mænd er de bedste til sat beslutte", "At kvinder ikke egner sig til politik"],
+        "feedback": "<br/>Temaet er, at et godt samfund kræver mænd og kvinders deltagelse i beslutningerne."
+
+    }, {
+        "spm": "Hvad vil kilden fortælle os?",
+        "korrekt_svar": 3,
+        "svarmuligheder": ["Giv alle kvinder valgret for samfundets skyld", "Mænd klarer bedst samfundsanliggender", "At man som arbejder skal stemme på Socialdemokratiet", "Den gifte kvinde er lykkeligst uden valgret"],
+        "feedback": "<br/>Hovedbudskabet er, at kvinder skal have stemmeret og valgret for samfundets skyld."
+
+    }, {
+        "spm": "Hvordan vil kilden fortælle os det?",
+        "korrekt_svar": 1,
+        "svarmuligheder": ["Ved at forbinde det danske fællesskab med arbejderen og Socialdemokratiet og ved ikke at bruge den røde farve, som bruges af kommunisterne", "En artikel", "Et debatindlæg", "Et brev"],
+        "feedback": "<br/>Kilden er en debatindlæg."
+
+    }, {
+        "spm": "Hvad er formålet med kilden?",
+        "korrekt_svar": 3,
+        "svarmuligheder": ["At tale for kvindens rettigheder generelt", "At argumentere for kvinders indflydelse og overbevise mændene om kvinders valgret", "Få arbejderne til at stemme på Socialdemokratiet"],
+        "feedback": "<br/>Formålet med talen er at argumentere for kvinders indflydelse og overbevise mændene om kvinders valgret "
+
+    }, {
+        "spm": "Hvilken situation er plakaten opstået i?",
+        "korrekt_svar": 2,
+        "svarmuligheder": ["At tale for kvindens rettigheder generelt", "Efterkrigskrisen efter 2. verdenskrig og splittelsen i arbejderbevægelsens poltiske parter", "Få arbejderne til at stemme på Socialdemokratiet"],
+        "feedback": "<br/>Formålet med talen er at argumentere for kvinders indflydelse og overbevise mændene om kvinders valgret "
+
+    }, {
+        "spm": "Hvad kan vi bruge kilden til?",
+        "korrekt_svar": 1,
+        "svarmuligheder": ["At sige noget den økonomiske sitation i 1947, hvem Socialdemokratietappelerer til, samt deres fokus på Danmark som fællesskab", "I oplysningstiden", "I en periode, hvor man diskuterer ændring af grundloven","I 1. verdenskrig"],
+        "feedback": "i en periode, hvor man diskuterer ændring af grundloven."
+
+    }]
+
+}]
+
+
+

@@ -41,7 +41,7 @@ function collectanswers() {
 
         HTML = HTML + JsonObj[0].opts[i].spm + ": <b>" + JsonObj[0].opts[i].svarmuligheder[JsonObj[0].opts[i].korrekt_svar - 1] + "</b><br/>";
     }
-    
+
     samletfeedback = HTML;
 };
 
@@ -109,6 +109,8 @@ function check_answer() {
             delrunde++;
 
             if (delrunde < JsonObj[runde].opts.length) {
+                UserMsgBox("html", "<h3>Du har svaret <span class='label label-success'>Korrekt</span> </h3><b>" + dropdown_value + " </b>er det rigtige svar på spørgsmålet: <b>"+ JsonObj[runde].opts[delrunde-1].spm + "</b><br/><br/>Svaret er tilføjet til din kildeanalyse");
+                console.log("Næste svar..!");
                 next_del_round();
             } else {
                 $(".dropdown").fadeOut(0);
@@ -120,7 +122,7 @@ function check_answer() {
                     $(".continue").click(next_round);
                 } else {
                     $(".spm_container").append("<div class='btn btn-primary again'>Prøv igen</div>");
-                    UserMsgBox("html", "Opgaven er slut. <br/>Du havde <b>" + fejl + " </b>fejl.<br/><h2>Spørgsmål og rigtige svar: </h2>" + samletfeedback);
+                    UserMsgBox("html", "<h3>Du har svaret <span class='label label-success'>Korrekt</span> på alle spørgsmålene!</h3><br/>Du havde <b>" + fejl + " </b>fejl.<br/><h2>Spørgsmål og rigtige svar: </h2>" + samletfeedback);
                     $(".again").click(function() {
                         location.reload();
                     });
@@ -131,18 +133,19 @@ function check_answer() {
         console.log("move on");
         //update_text();
     } else {
-        fejl++;
+        
         if ($(".dropdown option:selected").index() != 0) {
-            UserMsgBox("html", dropdown_value + " er ikke det korrekte svar.");
+            fejl++;
+            UserMsgBox("html", "<h3>Du har svaret <span class='label label-danger'>Forkert</span> </h3><b>" + dropdown_value + "</b> er ikke det rigtige svar på spørgsmålet: <b>"+ JsonObj[runde].opts[delrunde].spm + "</b>");
         } else {
-            UserMsgBox("html", "Vælg et svar fra dropdown menuen til venstre");
+            UserMsgBox("html", "Vælg et svar fra dropdown menuen før du trykker på <b>Tjek svar</b>");
         }
     }
     opdater_score();
 }
 
 function opdater_score() {
-    $(".score").html("<h5>Korrekte svar: <span class='QuestionCounter'>" + score + "/" + JsonObj[runde].opts.length + "</span> Fejl: <span class='ErrorCount'>"+fejl+"</span></h5>");
+    $(".score").html("<h5>Korrekte svar: <span class='QuestionCounter'>" + score + "/" + JsonObj[runde].opts.length + "</span> Fejl: <span class='ErrorCount'>" + fejl + "</span></h5>");
     //"Rigtige svar: " + score + "/" + JsonObj[runde].opts.length + " Fejl: " + fejl);
 
 }
