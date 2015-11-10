@@ -145,7 +145,7 @@ function check_answer() {
 }
 
 function opdater_score() {
-    $(".score").html("<h5>Korrekte svar: <span class='QuestionCounter'>" + score + "/" + JsonObj[runde].opts.length + "</span> Fejl: <span class='ErrorCount'>" + fejl + "</span></h5>");
+    $(".score").html('<h5><span class="scoreText">Korrekte svar: </span><span class="QuestionCounter">'+ score +' ud af '+ JsonObj[runde].opts.length +'</span><span class="scoreText ml15"> Fejl: </span><span class="ErrorCount">'+ fejl +'</span> </h5>');
     //"Rigtige svar: " + score + "/" + JsonObj[runde].opts.length + " Fejl: " + fejl);
 
 }

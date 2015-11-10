@@ -39,9 +39,7 @@
     width: 90%;
 }
 
-.checkAnswer {
-    margin-top: 15px;
-}
+    
 
 .pic {
     display: block;
@@ -61,4 +59,9 @@
 
 .score {
     display: inline-block;
+}
+.checkAnswer {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
 }
