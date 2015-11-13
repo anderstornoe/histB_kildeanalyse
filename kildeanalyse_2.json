@@ -23,7 +23,7 @@
     }, {
         "spm": "Hvilket tema omhandler billedet?",
         "korrekt_svar": 3,
-        "svarmuligheder": ["Udviskning af kønsrollerne","Børnene som den danske stats fremtid","Kernefamilien og beskæftigelse","Krisen skal overståes","Kernefamiliens udfasning"],
+        "svarmuligheder": ["Udviskning af kønsrollerne","Børnene som den danske stats fremtid","Kernefamilien og beskæftigelse","Krisen skal overståes","Kernefamiliens svækkede betydning"],
         "feedback": "<br/>Den omhandler beskæftigelsen, og sætter kernefamilien i centrum af samfundsordenen."
 
     }, {
@@ -35,7 +35,7 @@
     }, {
         "spm": "Hvordan vil kilden fortælle os det?",
         "korrekt_svar": 2,
-        "svarmuligheder": ["Ved at vise os, at familien er tryg","Ved at have kernefamilien som det centrale og så suppleret med tekst","Ved at vise Socialdemokraternes logo som det centrale","Ved at fortælle os, hvad de politiske modstandere vil gøre","Ved at sætte individet i centrum"],
+        "svarmuligheder": ["Ved at vise os, at familien er tryg","Ved at have et billede af kernefamilien og et slogan der hævder, at Socialdemokratiet allerede har skabt gode tider","Ved at vise Socialdemokraternes logo som det centrale","Ved at fortælle os, hvad de politiske modstandere vil gøre","Ved at sætte individet i centrum"],
         "feedback": "<br/>Det centrale motiv på plakaten er kernefamilien, suppleret med teksten der har til formål at "
 
     }, {
@@ -46,14 +46,14 @@
 
     }, {
         "spm": "Hvilken situation er plakaten opstået i?",
-        "korrekt_svar": 3,
-        "svarmuligheder": ["Folketingsvalg 1960, hvor Socialdemokratiet skulle have magten tilbage.","Kommunalvalg 1960 hvor Socialdemokratiet ville miste borgermesterposter rundt omkring i landet","Ved folketingsvalget i 1960","I en situation hvor Socialdemokratiet havde haft magten i 7 år, og derfor ville holde deres politiske kurs","Socialdemokratiets krise i 50'erne skulle stoppes med fokus på økonomiske spørgsmål","En opbremsning af velfærdsydelser"],
-        "feedback": "i en situation hvor Socialdemokratiet havde haft magten i 7 år, og derfor ville holde deres kurs for det fremtidige Danmark.<br/>"
+        "korrekt_svar": 2,
+        "svarmuligheder": ["Ved folketingsvalget i 1960, hvor Socialdemokratiet ville have magten tilbage","Ved folketingsvalget i 1960, hvor Socialdemokratiet ville blive ved magten","I en situation, hvor Socialdemokratiet ville gøre opmærksom at partiet netop var blevet stiftet","I en situation hvor Socialdemokratiets krise i 50'erne skulle stoppes med fokus på økonomiske spørgsmål"],
+        "feedback": "i en situation hvor Socialdemokratiet havde haft magten i 7 år (og sørget for gode tider), og derfor ville holde denne kurs for det fremtidige Danmark.<br/>"
 
     }, {
         "spm": "Hvad kan kilden bruges til?",
         "korrekt_svar": 1,
-        "svarmuligheder": ["At sige noget om samfundets udvikling, samt Socialdemokratiets syn på familieliv og økonomi omkring 1960.","At sige noget objektivt om dansk økonomi fra 50'erne til 60'erne","At sige noget om hvordan det var at vokse op i 1960","At sige noget om den politiske kamp i 60'erne","intet."],
+        "svarmuligheder": ["At sige noget om Socialdemokratiets syn på familieliv og økonomi omkring 1960","At sige noget objektivt om dansk økonomi fra 50'erne til 60'erne","At sige noget om hvordan det var at vokse op i 1960","At sige noget om den politiske kamp i 60'erne","Intet"],
         "feedback": "Vi kan altså bruge kilden til at sige noget om samfundets udvikling, samt Socialdemokratiets syn på familieliv og økonomi omkring 1960."
 
     }]

@@ -1,7 +1,7 @@
 [{
     "kilde": "kilder/familie_journal.txt",
     "kilde_type": "text",
-    "kilde_info": "Spørgsmål til brevkassen i Illustreret Familie-Journal,  21. Maj, 1957<br/>Kilde: Aschehoug, Livet er ikke en strøgtur, 2001, s. 202",
+    "kilde_info": "Spørgsmål til brevkassen i Illustreret Familie-Journal,  21. maj, 1957<br/>Kilde: Aschehoug, Livet er ikke en strøgtur, 2001, s. 202",
     "opts": [{
         "spm": "Hvem er afsenderen?",
         "korrekt_svar": 3,
@@ -18,7 +18,7 @@
         "spm": "Hvornår er kilden fra?",
         "korrekt_svar": 3,
         "svarmuligheder": ["21:07:57","Julen 1958","21/05/1957","Sommeren 1989","2001"],
-        "feedback": "<br/>Denne kilde blev bragt i Illustreret Famillie-Journal den 21. Maj, 1957"
+        "feedback": "<br/>Denne kilde blev bragt i Illustreret Famillie-Journal den 21. maj, 1957."
 
     }, {
         "spm": "Hvad er temaerne i kilden?",
@@ -35,7 +35,7 @@
     }, {
         "spm": "Med hvilket formål skriver Kvinden i provinsen?",
         "korrekt_svar": 4,
-        "svarmuligheder": ["Hun vil drille sin mand","Hun ønsker flere børn","Hun ønsker søsteren skal forstå","Hun ønsker råd og opbakning til sin egen holdning","Hun ønsker at få et arbejde","Hun ønsker at blive skilt"],
+        "svarmuligheder": ["Hun vil drille sin mand","Hun ønsker flere børn","Hun ønsker at, søsteren skal forstå","Hun ønsker råd og opbakning til sin egen holdning","Hun ønsker at få et arbejde","Hun ønsker at blive skilt"],
         "feedback": "<br/>Formålet med at 'Kvinden fra provinsen' skriver sit brev er, at hun ønsker bekræftelse i, at hendes livssituation er frustrerende."
 
     }, {
@@ -47,8 +47,8 @@
     }, {
         "spm": "Hvad kan kilden derudover bruges til?",
         "korrekt_svar": 1,
-        "svarmuligheder": ["At sige noget om forestillinger om kønsroller i 50´erne og et samfund i forandring","At vise noget om levestandarden i 1950érne","At vise noget om uddannelsesniveau for kvinder"],
-        "feedback": "<br/>Kilden kan bruges til at sige noget om forestillinger om kønsroller i 50´erne. Den indikerer, at kønsrollerne er i opbrud og samfundet er i forandring. At brevet bliver bragt Illustreret Famile-Journal, fortæller os, at kvinden ikke står alene med sin utilfredshed."
+        "svarmuligheder": ["At sige noget om forestillinger om kønsroller i 50'erne og et samfund i forandring","At vise noget om levestandarden i 1950'erne","At vise noget om uddannelsesniveauet for kvinder"],
+        "feedback": "<br/>Kilden kan bruges til at sige noget om forestillinger om kønsroller i 50'erne. Den indikerer, at kønsrollerne er i opbrud og samfundet er i forandring. At brevet bliver bragt i Illustreret Famile-Journal, fortæller os, at kvinden ikke står alene med sin utilfredshed."
 
     }]
 

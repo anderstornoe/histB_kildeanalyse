@@ -1,7 +1,7 @@
 [{
     "kilde": "kilder/bygDKop.jpg",
     "kilde_type": "pic",
-    "kilde_info": "<p>Byg Danmark Op. Valgplakat fra socialdemokratiet 1947</p>Kilde: Plakaten er venligt udlånt af Arbejdermuseet",
+    "kilde_info": "<p>Byg Danmark Op. Valgplakat fra Socialdemokratiet 1947</p>Kilde: Plakaten er venligst udlånt af Arbejdermuseet",
     "opts": [{
         "spm": "Hvem er afsenderen?",
         "korrekt_svar": 3,
@@ -12,7 +12,7 @@
         "spm": "Hvem henvender kilden sig til?",
         "korrekt_svar": 2,
         "svarmuligheder": ["Folketinget", "Arbejderne", "Landmændene", "Kvinderne"],
-        "feedback": "Partiet henvender sig til de danske arbejdere, som normalt ville stemme på Socialdemokratiet, da de varetog arbejdernes interesser."
+        "feedback": "Partiet henvender sig til de danske arbejdere, som normalt ville stemme på Socialdemokratiet, da partiet varetog arbejdernes interesser."
 
     }, {
         "spm": "Hvornår er kilden fra?",
@@ -30,19 +30,19 @@
         "spm": "Hvad er kildens budskab?",
         "korrekt_svar": 3,
         "svarmuligheder": ["Giv alle kvinder valgret for samfundets skyld", "Mænd klarer bedst samfundsanliggender", "At man som arbejder skal stemme på Socialdemokratiet", "At den gifte kvinde er lykkeligst uden valgret"],
-        "feedback": "<br/>Kildens hovedbudskab er, at man som arbejder skal stemme på Socialdemokratiet,"
+        "feedback": "<br/>Kildens hovedbudskab er, at man som arbejder skal stemme på Socialdemokratiet, "
 
     }, {
         "spm": "Hvordan vil kilden fortælle os det?",
         "korrekt_svar": 1,
-        "svarmuligheder": ["Ved at forbinde det danske fællesskab med arbejderen og Socialdemokratiet og ved ikke at bruge den røde farve, som bruges af kommunisterne", "Ved at bruge sort som baggrundsfarve styrkes budskabet om fællesskab", "Ved at bruge den gule farve som et symbol på den danske arbejder ", "Ved at male et billede af arbejdsforholdene på danske fabrikker"],
-        "feedback": "og den gør det ved at forbinde det danske fællesskab med arbejderen og Socialdemokratiet og ved ikke at bruge den røde farve, som bruges af kommunisterne, ."
+        "svarmuligheder": ["Ved ikke at anvende den røde farve og ved at Danmark med Socialdemokratiet", "Ved at bruge sort som baggrundsfarve styrkes budskabet om fællesskab", "Ved at bruge den gule farve som et symbol på den danske arbejder", "Ved at male et billede af arbejdsforholdene på danske fabrikker"],
+        "feedback": "og den gør det ved at forbinde det danske fællesskab med arbejderen og Socialdemokratiet og ved ikke at bruge den røde farve, som bruges af kommunisterne."
 
     }, {
         "spm": "Hvad er formålet med kilden?",
         "korrekt_svar": 3,
         "svarmuligheder": ["At tale for mandens rettigheder generelt", "At argumentere for arbejderens indflydelse på arbejdetsmarkedet", "At få arbejderne til at stemme på Socialdemokratiet"],
-        "feedback": "<br/> og derfor er formålet med plakaten at få arbejderne til at stemme på Socialdemokratiet."
+        "feedback": "<br/>Derfor er formålet med plakaten at få arbejderne til at stemme på Socialdemokratiet."
 
     }, {
         "spm": "Hvilken situation er plakaten opstået i?",

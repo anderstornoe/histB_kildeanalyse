@@ -35,25 +35,25 @@
     }, {
         "spm": "Hvordan meddeler Louis Pio sig i artiklen?",
         "korrekt_svar": 2,
-        "svarmuligheder": ["På en ironisk måde", "Med mange negativt- og positivt ladede ord.", "På en munter måde", "Med religiøse undertoner"],
+        "svarmuligheder": ["På en ironisk måde", "Med mange negativt- og positivt ladede ord", "På en munter måde", "Med religiøse undertoner"],
         "feedback": "<br/>Ved at sætte klare sproglige modsætninger op mellem de gode (arbejderne) og de onde (magthaverne) søger Pio en større gennemslagskraft. <br/>"
 
     }, {
         "spm": "Med hvilket formål meddeler Louis Pio sig?",
         "korrekt_svar": 1,
-        "svarmuligheder": ["At samle arbejderne til kamp og true magthaverne.", "At lave revolution", "At indkalde til strejke.", "Til at besætte tomme lejligheder i København"],
-        "feedback": "Louis Pios formål er dels at samle arbejderne til kamp og ytre en trussel imod magthaverne. <br/>"
+        "svarmuligheder": ["At samle arbejderne til kamp og true magthaverne", "At lave revolution", "At indkalde til strejke", "Til at besætte tomme lejligheder i København"],
+        "feedback": "Louis Pios formål er at samle arbejderne til kamp og ytre en trussel imod magthaverne. <br/>"
 
     }, {
         "spm": "I hvilken situation meddeler Pio sig?",
         "korrekt_svar": 2,
-        "svarmuligheder": ["Som følge af grundlovens indførelse i 1872", "På baggrund af konflikter mellem arbejdere og arbejdsgivere i 1872", "På baggrund af en sultestrejke."],
+        "svarmuligheder": ["Som følge af grundlovens indførelse i 1872", "På baggrund af konflikter mellem arbejdere og arbejdsgivere i 1872", "På baggrund af en sultestrejke"],
         "feedback": "Pios artikel udspringer af store konflikter mellem arbejdsmarkedets parter i 1870'erne.<br/>"
 
     }, {
         "spm": "Hvad kan kilden bruges til?",
         "korrekt_svar": 2,
-        "svarmuligheder": ["At sige noget om magthavernes syn på arbejderbevægelsen", "At sige noget om den tidlige danske arbejderbevægelse."],
+        "svarmuligheder": ["At sige noget om magthavernes syn på arbejderbevægelsen", "At sige noget om den tidlige danske arbejderbevægelse"],
         "feedback": "Kilden fortæller os om arbejderbevægelsens opståen, grundlæggende tanker og kamp for bedre vilkår."
 
     }]

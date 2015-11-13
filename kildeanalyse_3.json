@@ -28,14 +28,14 @@
 
     }, {
         "spm": "Hvordan sender reklamen dette budskab?",
-        "korrekt_svar": 3,
-        "svarmuligheder": ["At amerikanere spiser mange Yankie barer", "Reklamen hævder, at en Yankie bar smager godt","Forklarer at chokoladen er fremstillet i USA","Den knytter chokoladebaren sammen med USA gennem billede og tekst"],
-        "feedback": "<br/>Ved hjælp af billeder og korte fraser kæder reklamen chokoladebaren sammen med USA. "
+        "korrekt_svar": 4,
+        "svarmuligheder": ["At amerikanere spiser mange Yankie barer", "Reklamen hævder, at en Yankie bar smager godt","Reklamen hævder, at chokoladebaren er næringsrig","Den knytter chokoladebaren sammen med USA gennem billede og tekst"],
+        "feedback": "<br/>Ved hjælp af billeder og korte fraser kæder reklamen chokoladebaren sammen med USA."
 
     }, {
         "spm": "Hvorfor benytter Toms Fabrikker sig af dette budskab?",
         "korrekt_svar": 1,
-        "svarmuligheder": ["For at sælge mere chokolade til danskerne","For at komme ind på det amerikanske marked","For at hylde USA for landets andel i 2. verdenskrig","For at drille nationalistisk sindede danskere"],
+        "svarmuligheder": ["For at sælge mere chokolade til danskerne","For at komme ind på det amerikanske marked","For at hylde USA for landets rolle i 2. verdenskrig","For at drille nationalistisk sindede danskere"],
         "feedback": "<br/>Formålet med reklamen er at sælge mere chokolade til danskerne."
 
     }, {

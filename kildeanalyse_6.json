@@ -17,13 +17,13 @@
     }, {
         "spm": "Hvornår er kilden skrevet?",
         "korrekt_svar": 4,
-        "svarmuligheder": ["Efter kvinder har fået kommunal valgret?", "Efter den ugifte kvinde har fået valgret", "I en tid, hvor ingen har valgret", "I en tid, hvor kun mænd har valgret"],
+        "svarmuligheder": ["Efter kvinder har fået kommunal valgret", "Efter den ugifte kvinde har fået valgret", "I en tid, hvor ingen har valgret", "I en tid, hvor kun mænd har valgret"],
         "feedback": "<br/>Kilden er fra en tid, hvor kun mænd havde ret til at stemme og stille op til folketinget."
 
     }, {
         "spm": "Hvad er temaet i kilden?",
         "korrekt_svar": 3,
-        "svarmuligheder": ["At samfundsmedlemmer både er kvinder og mænd", "At samfundsmedlemmer kun er kvinder", "At et godt samfund kræver mænd og kvinders deltagelse i beslutningerne", "At mænd er de bedste til sat beslutte", "At kvinder ikke egner sig til politik"],
+        "svarmuligheder": ["At samfundsmedlemmer både er kvinder og mænd", "At samfundsmedlemmer kun er kvinder", "At et godt samfund kræver mænd og kvinders deltagelse i beslutningerne", "At mænd er de bedste til at beslutte", "At kvinder ikke egner sig til politik"],
         "feedback": "<br/>Temaet er, at et godt samfund kræver mænd og kvinders deltagelse i beslutningerne."
 
     }, {
@@ -39,10 +39,10 @@
         "feedback": "<br/>Kilden er en debatindlæg."
 
     }, {
-        "spm": "Hvad er formålet med talen?",
+        "spm": "Hvad er formålet med debatindlægget?",
         "korrekt_svar": 2,
         "svarmuligheder": ["At tale for kvindens rettigheder generelt", "At argumentere for kvinders indflydelse og overbevise mændene om kvinders valgret", "At anklage mændene"],
-        "feedback": "<br/>Formålet med talen er at argumentere for kvinders indflydelse og overbevise mændene om kvinders valgret "
+        "feedback": "<br/>Formålet med debatindlægget er at argumentere for kvinders indflydelse og overbevise mændene om kvinders valgret "
 
     }, {
         "spm": "Hvilken situation opstår kilden i?",
