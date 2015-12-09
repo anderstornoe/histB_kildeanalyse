@@ -19,6 +19,13 @@
 
 }
 
+
+#UserMsgBox {
+    top: 1%;
+    
+}
+
+
 .spm_container {
     padding: 5px;
 }
@@ -58,7 +65,7 @@
 }
 
 .score {
-    display: inline-block;
-    margin-top: 9px;
+     margin-top: -20px;
+    margin-bottom: 25px;
 }
 

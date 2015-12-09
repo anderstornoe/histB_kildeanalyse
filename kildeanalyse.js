@@ -39,7 +39,7 @@ function collectanswers() {
     var HTML = "";
     for (var i = 0; i < JsonObj[0].opts.length; i++) {
 
-        HTML = HTML + JsonObj[0].opts[i].spm + ": <b>" + JsonObj[0].opts[i].svarmuligheder[JsonObj[0].opts[i].korrekt_svar - 1] + "</b><br/>";
+        HTML = HTML + JsonObj[0].opts[i].feedback;
     }
 
     samletfeedback = HTML;
@@ -67,7 +67,7 @@ function next_round() {
     } else if (kilde_type == "video") {
         $(".kilde_container").append("<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/" + JsonObj[runde].kilde + "'frameborder='0' allowfullscreen='1'></iframe>");
     } else if (kilde_type == "pic") {
-        $(".kilde_container").append("<div data-toggle='modal' data-target='#myModal'><img class='pic' src='" + JsonObj[runde].kilde + "'></div>");
+        $(".kilde_container").append("<div class='embed-responsive-item' data-toggle='modal' data-target='#myModal'><img class='pic img-responsive' src='" + JsonObj[runde].kilde + "'></div>");
         var parent_height = $(".pic").parent().parent().height();
         $(".pic").css("height", parent_height);
         modal();
@@ -122,7 +122,7 @@ function check_answer() {
                     $(".continue").click(next_round);
                 } else {
                     $(".spm_container").append("<div class='btn btn-primary again'>Prøv igen</div>");
-                    UserMsgBox("html", "<h3>Du har svaret <span class='label label-success'>Korrekt</span> på alle spørgsmålene!</h3><br/>Du havde <b>" + fejl + " </b>fejl.<br/><h2>Spørgsmål og rigtige svar: </h2>" + samletfeedback);
+                    UserMsgBox("html", "<h4>Du har nu lavet en kildeanalyse. Du havde " + fejl + " fejl.</h4><h5>Den samlede analysetekst:</h5><p>" + samletfeedback +"</p><div class='btn btn-primary again'>PRØV IGEN</div>");
                     $(".again").click(function() {
                         location.reload();
                     });
