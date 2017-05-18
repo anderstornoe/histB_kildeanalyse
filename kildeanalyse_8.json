@@ -1,0 +1,55 @@
+[{
+    "kilde": "kilder/grundloven.txt",
+    "kilde_type": "text",
+    "kilde_info": "<b>Uddrag af Grundloven. 5 juni 1849<br/>Kilde: <a href='http://danmarkshistorien.dk/leksikon-og-kilder/vis/materiale/danmarks-riges-grundlov-af-5-juni-1849-junigrundloven/'>http://danmarkshistorien.dk/leksikon-og-kilder/vis/materiale/danmarks-riges-grundlov-af-5-juni-1849-junigrundloven/</a>",
+    "opts": [{
+        "spm": "Hvilken type kilde er der tale om?",
+        "korrekt_svar": 1,
+        "svarmuligheder": ["En lov", "En tale", "En artikel", "Et brev", "En dagbog"],
+        "feedback": "Grundloven "
+
+    }, {
+        "spm": "Hvilken monark står som afsender af kilden?",
+        "korrekt_svar": 3,
+        "svarmuligheder": ["Christian 4.", "Frederik 3.", "Frederik 7.", "Margrethe 2."],
+        "feedback": "blev underskrevet af Frederik 7. " 
+
+    }, {
+        "spm": "Hvornår skrev kong Frederik d. 7. under på Grundloven?",
+        "korrekt_svar": 3,
+        "svarmuligheder": ["14. november 1665", "25. maj 1849", "5. juni 1849", "18 november 1863"],
+        "feedback": "den 5 juni 1849"
+
+    }, {
+        "spm": "Hvem er modtageren?",
+        "korrekt_svar": 1,
+        "svarmuligheder": ["Den danske befolkning", "Den europæiske befolkning", "Indbyggerne i Slesvig og Holsten"],
+        "feedback": "<br/>Grundloven henvendte sig til den danske befolkning "
+
+    }, {
+        "spm": "Hvilken overgang markerer Grundloven af 1849?",
+        "korrekt_svar": 2,
+        "svarmuligheder": ["Overgangen fra adelsvælde til enevælde", "Overgangen fra enevælde til en mere demokratisk styreform.", "Overgangen fra kapitalismen til det klasseløse kommunistiske samfund"],
+        "feedback": "og markerede overgangen fra enevælde til en mere demokratisk styreform."
+
+    }, {
+        "spm": "Hvem får valgret til Folketinget?",
+        "korrekt_svar": 3,
+        "svarmuligheder": ["Kvinder samt mænd over 30", "Kvinder samt mænd under 30", "Enhver uberygtet mand, som har indfødsret, når han har fyldt  30 år"],
+        "feedback": "<br/>Med grundloven indførtes valgret til folketinget for alle uberygtede mænd over 30 år med indfødsret. "
+
+    }, {
+        "spm": "Hvilke punkter omhandler kilden især?",
+        "korrekt_svar": 1,
+        "svarmuligheder": ["Indførelsen af begrænset stemmeret, magtens tredeling samt ytrings-, trykke-, forenings- og forsamlingsfrihed","Indførelsen af begrænset stemmeret,retten til at bære våben samt ytrings-, trykke-, forenings- og forsamlingsfrihed", "Indførelsen af begrænset stemmeret, enevælden samt ytrings-, trykke-,forenings- og forsamlingsfrihed"],
+        "feedback": "<br/>Udover begrænset stemmeret indførtes magtens tredeling samt ytrings-, trykke-, forenings- og forsamlingsfrihed  "
+
+    }, {
+        "spm": "Hvad kan kilden bruges til?",
+        "korrekt_svar": 3,
+        "svarmuligheder": ["At sige noget om hvilke rettigheder befolkningen fik ved afskaffelsen af stavnsbåndet", "At sige noget om hvordan kongedømmet blev afskaffet", "At sige noget om, hvilke rettigheder befolkningen fik ved afskaffelsen af enevælden"],
+        "feedback": "Grundloven kan som kilde bruges til at sige noget om, hvilke rettigheder befolkningen fik ved afskaffelsen af enevælden og indførelsen af en mere demokratisk styreform.<br/>"
+
+    }]
+
+}]

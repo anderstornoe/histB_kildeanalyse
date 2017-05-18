@@ -27,8 +27,12 @@ $(document).ready(function() {
             korrekt_svar = false;
 
         }
-
     });
+
+   
+        microhint($(".dropdown"), "Start her. Udfør en kildeanalyse ved at vælge de rigtige svar fra dropdown menuen.");
+   
+
 });
 
 function insert_kildecontainer() {
@@ -109,7 +113,9 @@ function check_answer() {
             delrunde++;
 
             if (delrunde < JsonObj[runde].opts.length) {
-                UserMsgBox("html", "<h3>Du har svaret <span class='label label-success'>Korrekt</span> </h3><b>" + dropdown_value + " </b>er det rigtige svar på spørgsmålet: <b>"+ JsonObj[runde].opts[delrunde-1].spm + "</b><br/><br/>Svaret er tilføjet til din kildeanalyse");
+                //UserMsgBox("html", "<h3>Du har svaret <span class='label label-success'>Korrekt</span> </h3><b>" + dropdown_value + " </b>er det rigtige svar på spørgsmålet: <b>"+ JsonObj[runde].opts[delrunde-1].spm + "</b><br/><br/>Svaret er tilføjet til din kildeanalyse");
+                microhint($(".analyse_container"), "<h4>Du har svaret <span class='label label-success'>Korrekt</span> </h4><b>'" + dropdown_value + " </b>' er det rigtige svar på spørgsmålet: <b>'" + JsonObj[runde].opts[delrunde - 1].spm + "'</b><br/><br/>Svaret er tilføjet til din kildeanalyse.");
+
                 console.log("Næste svar..!");
                 next_del_round();
             } else {
@@ -122,7 +128,7 @@ function check_answer() {
                     $(".continue").click(next_round);
                 } else {
                     $(".spm_container").append("<div class='btn btn-primary again'>Prøv igen</div>");
-                    UserMsgBox("html", "<h4>Du har nu lavet en kildeanalyse. Du havde " + fejl + " fejl.</h4><h5>Den samlede analysetekst:</h5><p>" + samletfeedback +"</p><div class='btn btn-primary again'>PRØV IGEN</div>");
+                    UserMsgBox("html", "<h4>Du har nu lavet en kildeanalyse. Du havde " + fejl + " fejl.</h4><h5>Den samlede analysetekst:</h5><p>" + samletfeedback + "</p><div class='btn btn-primary again'>PRØV IGEN</div>");
                     $(".again").click(function() {
                         location.reload();
                     });
@@ -133,19 +139,22 @@ function check_answer() {
         console.log("move on");
         //update_text();
     } else {
-        
+
         if ($(".dropdown option:selected").index() != 0) {
             fejl++;
-            UserMsgBox("html", "<h3>Du har svaret <span class='label label-danger'>Forkert</span> </h3><b>" + dropdown_value + "</b> er ikke det rigtige svar på spørgsmålet: <b>"+ JsonObj[runde].opts[delrunde].spm + "</b>");
+            microhint($(".analyse_container"), "<h4>Du har svaret <span class='label label-danger'>Forkert</span> </h4><b>'" + dropdown_value + "</b>' er ikke det rigtige svar på spørgsmålet: '<b>" + JsonObj[runde].opts[delrunde].spm + "'</b>");
+
+            //UserMsgBox("html", "<h3>Du har svaret <span class='label label-danger'>Forkert</span> </h3><b>" + dropdown_value + "</b> er ikke det rigtige svar på spørgsmålet: <b>"+ JsonObj[runde].opts[delrunde].spm + "</b>");
         } else {
-            UserMsgBox("html", "Vælg et svar fra dropdown menuen før du trykker på <b>Tjek svar</b>");
+
+            microhint($(".dropdown"), "<h4>Vælg fra dropdown menuen</h4><b>Vælg et svar fra dropdown menuen før du trykker på <b>Tjek svar</b>");
         }
     }
     opdater_score();
 }
 
 function opdater_score() {
-    $(".score").html('<h5><span class="scoreText">Korrekte svar: </span><span class="QuestionCounter">'+ score +' ud af '+ JsonObj[runde].opts.length +'</span><span class="scoreText ml15"> Fejl: </span><span class="ErrorCount">'+ fejl +'</span> </h5>');
+    $(".score").html('<h5><span class="scoreText">Korrekte svar: </span><span class="QuestionCounter">' + score + ' ud af ' + JsonObj[runde].opts.length + '</span><span class="scoreText ml15"> Fejl: </span><span class="ErrorCount">' + fejl + '</span> </h5>');
     //"Rigtige svar: " + score + "/" + JsonObj[runde].opts.length + " Fejl: " + fejl);
 
 }
